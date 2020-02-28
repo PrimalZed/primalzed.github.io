@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582860864835,
+  "timestamp": 1582863985447,
   "index": "/epitaph/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/epitaph/favicon.ico",
         "/epitaph/index.html",
-        "/epitaph/main-es2015.a3aa648846f72b398dd4.js",
-        "/epitaph/main-es5.a3aa648846f72b398dd4.js",
+        "/epitaph/main-es2015.a6bf992b0f65c368f6be.js",
+        "/epitaph/main-es5.a6bf992b0f65c368f6be.js",
         "/epitaph/manifest.webmanifest",
         "/epitaph/polyfills-es2015.e9d0f023c038acf30a75.js",
         "/epitaph/polyfills-es5.3065e16715d9392f6596.js",
         "/epitaph/runtime-es2015.f5b417ad1816c2fe3519.js",
         "/epitaph/runtime-es5.f5b417ad1816c2fe3519.js",
-        "/epitaph/styles.03ce6118c1acf6bb6749.css"
+        "/epitaph/styles.b476d570b6139204fba6.css"
       ],
       "patterns": []
     },
@@ -49,15 +49,15 @@
     "/epitaph/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/epitaph/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/epitaph/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/epitaph/index.html": "6952c365ab923a11c763d1478310b25da18496c0",
-    "/epitaph/main-es2015.a3aa648846f72b398dd4.js": "c6711c975832b6d014a902c4a432281b8beea4d7",
-    "/epitaph/main-es5.a3aa648846f72b398dd4.js": "6766a0c5ef78fc588b4bce2ab2b2f00a4dcbc902",
+    "/epitaph/index.html": "d17a9ed5d2303bf8dd0b51ac96fc077783ed557b",
+    "/epitaph/main-es2015.a6bf992b0f65c368f6be.js": "6fc722d6c7ddb87550c1472155447f859089c9f5",
+    "/epitaph/main-es5.a6bf992b0f65c368f6be.js": "912647211633aaf27792298923810d32a2340d20",
     "/epitaph/manifest.webmanifest": "304860eef5ceff1db1c1b7e33c5ce21272e16e25",
     "/epitaph/polyfills-es2015.e9d0f023c038acf30a75.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "/epitaph/polyfills-es5.3065e16715d9392f6596.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
     "/epitaph/runtime-es2015.f5b417ad1816c2fe3519.js": "736f94ea69dd9d496971024f67d7d965d7f4d57d",
     "/epitaph/runtime-es5.f5b417ad1816c2fe3519.js": "736f94ea69dd9d496971024f67d7d965d7f4d57d",
-    "/epitaph/styles.03ce6118c1acf6bb6749.css": "990af57b924c87437864bd3c67084a63b8733508"
+    "/epitaph/styles.b476d570b6139204fba6.css": "75eb5d8eb70b9e8cfbe2cc7fb755c346d819062a"
   },
   "navigationUrls": [
     {
