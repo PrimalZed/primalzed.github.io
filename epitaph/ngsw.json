@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1582856812893,
+  "index": "/epitaph/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/epitaph/favicon.ico",
+        "/epitaph/index.html",
+        "/epitaph/main-es2015.1b6a48c29997a098772a.js",
+        "/epitaph/main-es5.1b6a48c29997a098772a.js",
+        "/epitaph/manifest.webmanifest",
+        "/epitaph/polyfills-es2015.e9d0f023c038acf30a75.js",
+        "/epitaph/polyfills-es5.3065e16715d9392f6596.js",
+        "/epitaph/runtime-es2015.f5b417ad1816c2fe3519.js",
+        "/epitaph/runtime-es5.f5b417ad1816c2fe3519.js",
+        "/epitaph/styles.03ce6118c1acf6bb6749.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/epitaph/assets/icons/icon-128x128.png",
+        "/epitaph/assets/icons/icon-144x144.png",
+        "/epitaph/assets/icons/icon-152x152.png",
+        "/epitaph/assets/icons/icon-192x192.png",
+        "/epitaph/assets/icons/icon-384x384.png",
+        "/epitaph/assets/icons/icon-512x512.png",
+        "/epitaph/assets/icons/icon-72x72.png",
+        "/epitaph/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/epitaph/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/epitaph/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/epitaph/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/epitaph/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/epitaph/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/epitaph/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/epitaph/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/epitaph/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/epitaph/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/epitaph/index.html": "c9115218a019288f16de200f0b1fd3ed9de12e72",
+    "/epitaph/main-es2015.1b6a48c29997a098772a.js": "b3730705d49d93e14e33c438ae6df11ff3265776",
+    "/epitaph/main-es5.1b6a48c29997a098772a.js": "f3bd8937746478444990660fb991318b23827f77",
+    "/epitaph/manifest.webmanifest": "304860eef5ceff1db1c1b7e33c5ce21272e16e25",
+    "/epitaph/polyfills-es2015.e9d0f023c038acf30a75.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
+    "/epitaph/polyfills-es5.3065e16715d9392f6596.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
+    "/epitaph/runtime-es2015.f5b417ad1816c2fe3519.js": "736f94ea69dd9d496971024f67d7d965d7f4d57d",
+    "/epitaph/runtime-es5.f5b417ad1816c2fe3519.js": "736f94ea69dd9d496971024f67d7d965d7f4d57d",
+    "/epitaph/styles.03ce6118c1acf6bb6749.css": "990af57b924c87437864bd3c67084a63b8733508"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
