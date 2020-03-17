@@ -53,7 +53,7 @@
     "description": "Exposure and execution: these are the deaths that feed the Breathless Key. They are deaths of things lost to the formless and ephemeral, robbed of a simple breath of air. To turn the Key is to hear the breathless whispers of prisoners with the noose around their necks and the roar of tempests that wiped villages from the face of the living world. It is the cold whispers of your community as they turn their backs on you, the loneliness that comes from being a pariah.",
     "attribute": "Resolve",
     "resonance": "The Key of Cold Wind is resonant when the Bound is within an Environmental Tilt like Blizzard, Extreme Cold, or Heavy Winds. Additionally, if the Bound is in a setting where ambient noise makes it impossible to have a spoken conversation, the Key has resonance.",
-    "doom": "The character gains the Extreme Cold Tilt (p. XX) that lasts, in spite of other environmental conditions, for (10 - Synergy) hours or until the character actively reveals a damaging personal secret. When the Tilt ends, resolve this Doom."
+    "doom": "The character gains the Extreme Cold Tilt (p. 294) that lasts, in spite of other environmental conditions, for (10 - Synergy) hours or until the character actively reveals a damaging personal secret. When the Tilt ends, resolve this Doom."
   },
   {
     "key": "deep-waters",
@@ -95,7 +95,7 @@
     "description": "All things must die. Yet humanity struggles on, forever trying to leave a reminder of itself on the planet. The Key of Stone and Barrow it the jealous owner of all who perish in that task. Those who are buried in kingly tombs and crushed by heavy girders. The ones left stranded in the bottom of empty mine shafts and trapped in the decrepit monuments of yesteryear. Nothing is created without spending something: time, resources, lives. The Crushing Key keeps them all, a small payment for the immortality of another.",
     "attribute": "Strength",
     "resonance": "The Key of Grave Dirt is resonant when the Bound unlocks a Haunt in a place, or on a target, dedicated to the past: a graveyard or memorial, of course, but also something as prosaic as an abandoned building or an antiquated business such as a VHS repair store. Additionally, any time the character is below ground, the Key of Grave Dirt is resonant.",
-    "doom": "For the rest of the story, any time the character wishes to roll and extended action (p. XX), she must spend 1 Willpower. She may resolve this Doom by sacrificing a living being in the name of accomplishing her goal."
+    "doom": "For the rest of the story, any time the character wishes to roll and extended action (p. 147), she must spend 1 Willpower. She may resolve this Doom by sacrificing a living being in the name of accomplishing her goal."
   },
   {
     "key": "pyre-flame",
@@ -109,7 +109,7 @@
     "description": "To unlock the Burning Key is to understand being consumed, to feel the skin peel and run while the lungs fill with hot particulates that burn, then cool. A fire does not begin from nothing, though. They are created, fed, encouraged to cook, to warm, to protect. Yet those reasons may change as the flame is fueled and stoked. Maybe it was for the money? For beauty? For revenge? For love? The flame is an apathetic medium though — all it knows is how to consume and how to spread.",
     "attribute": "Intelligence",
     "resonance": "The Pyre Flame Key is resonant when it's used in an area, or on a target, that is on fire or subject to the Extreme Heat Tilt.",
-    "doom": "The character gains the Extreme Heat Tilt (p. XX) that lasts, in spite of other environmental conditions, for (10 - Synergy) hours or until the character deliberately destroys a valued personal possession. \"Valued\" can refer to monetary value or personal significance. When the Tilt ends, resolve this Doom."
+    "doom": "The character gains the Extreme Heat Tilt (p. 294) that lasts, in spite of other environmental conditions, for (10 - Synergy) hours or until the character deliberately destroys a valued personal possession. \"Valued\" can refer to monetary value or personal significance. When the Tilt ends, resolve this Doom."
   },
   {
     "key": "stillness",

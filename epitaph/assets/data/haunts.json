@@ -172,7 +172,7 @@
         "cost": "(Victim’s Size)",
         "type": "charge-effect",
         "description": [
-          "The Sin-Eater wholly consumes a recently-dead being or recently-incapacitated ghost of Size no greater than 7. If the Sin-Eater consumed the target via ectophagia (p. XX), this Enhancement costs no Plasm. Charge effect options last until the duration of the Caul ends or the Sin-Eater uses any other Caul Enhancement. Once that happens, the Sin-Eater permanently loses the ability to mimic the consumed victim.",
+          "The Sin-Eater wholly consumes a recently-dead being or recently-incapacitated ghost of Size no greater than 7. If the Sin-Eater consumed the target via ectophagia (p. 99), this Enhancement costs no Plasm. Charge effect options last until the duration of the Caul ends or the Sin-Eater uses any other Caul Enhancement. Once that happens, the Sin-Eater permanently loses the ability to mimic the consumed victim.",
           "Add the following effects to the Caul Condition. These effects last until the duration of the Caul ends or the Sin-Eater uses any other Caul Enhancement. Once that happens, the Sin-Eater permanently loses the ability to mimic the consumed victim."
         ],
         "effects": [
@@ -672,7 +672,7 @@
         "key": "3-2",
         "cost": 2,
         "type": "instant",
-        "description": "The Sin-Eater’s next unarmed ranged attack is treated as a medium-burst autofire attack (p. XX)."
+        "description": "The Sin-Eater’s next unarmed ranged attack is treated as a medium-burst autofire attack (p. 159)."
       }]
     }, {
       "dots": 4,
@@ -718,7 +718,7 @@
         "success": "The Sin-Eater coats himself in a thin layer of Plasm containig the essence of his geist. He gains the Shroud Condition.",
         "exceptional": "When the Haunt ends without resolving, the Sin-Eater regains half the Plasm spent on Don the Shroud.",
         "failure": "Plasm fails to coalesce around the Sin-Eater.",
-        "dramatic": "The coating of Plasm seals the Sin-Eater’s face, leaving him unable to see, hear, or even breathe. He will suffocate (p. XX) unless he takes an instant action to clear the ooze from his airway."
+        "dramatic": "The coating of Plasm seals the Sin-Eater’s face, leaving him unable to see, hear, or even breathe. He will suffocate unless he takes an instant action to clear the ooze from his airway."
       }
     }, {
       "dots": 2,
@@ -768,7 +768,7 @@
         "cost": 2,
         "type": "charge-effect",
         "description": "Add the following effect to the options available from the Shroud Condition.",
-        "effects": ["Bring another person you are holding on to with you into Twilight. If they’re resisting, you must grapple them (p. XX) first."]
+        "effects": ["Bring another person you are holding on to with you into Twilight. If they’re resisting, you must grapple them (p. 158) first."]
       }]
     }, {
       "dots": 5,
@@ -779,7 +779,7 @@
         "cost": 3,
         "type": "charge-effect",
         "description": "Add the following effect to the options available from the Shroud Condition.",
-        "effects": ["Cross into or out of the Upper Reaches of the Underworld. For an additional charge, you may bring one person you’re holding into (but not out of) the Underworld. If they’re resisting, you must grapple them (p. XX) first."]
+        "effects": ["Cross into or out of the Upper Reaches of the Underworld. For an additional charge, you may bring one person you’re holding into (but not out of) the Underworld. If they’re resisting, you must grapple them (p. 158) first."]
       }]
     }]
   },

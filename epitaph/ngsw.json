@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1584476622128,
+  "timestamp": 1584477896952,
   "index": "/epitaph/index.html",
   "assetGroups": [
     {
@@ -53,9 +53,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/epitaph/assets/data/conditions.json": "bc1a83768f1a92283f78b1e96eabe9c5ef9b6149",
-    "/epitaph/assets/data/haunts.json": "87d8a8ae49c0aa5e7ae326432f83240f1c2f7419",
-    "/epitaph/assets/data/keys.json": "39f6a36a18a27e876b5e03a8292513154bd68f17",
+    "/epitaph/assets/data/conditions.json": "67bc538a240418bd5c99503299bdfaa95b370fec",
+    "/epitaph/assets/data/haunts.json": "d2138a95474813da33d19cde5e6ab9cf7b37cdb4",
+    "/epitaph/assets/data/keys.json": "b635aca8c2f3c146b5438fa8a2f5848731d311c5",
     "/epitaph/assets/fonts/futura-bold.ttf": "b47a17f8da52563823024369fa13f7d941a39bdf",
     "/epitaph/assets/fonts/futura-book.ttf": "a76a8a0988f25a9502f1de91667371b6255cb392",
     "/epitaph/assets/fonts/goudy-old-style-bold-bt.ttf": "ab6f2408ec4a3de89195aebeb4885dfed195d2da",
