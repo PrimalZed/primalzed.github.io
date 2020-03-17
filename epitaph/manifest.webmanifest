@@ -1,7 +1,7 @@
 {
-  "name": "epitaph",
-  "short_name": "epitaph",
-  "theme_color": "#1976d2",
+  "name": "Epitaph",
+  "short_name": "Epitaph",
+  "theme_color": "#005394",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/epitaph/",
