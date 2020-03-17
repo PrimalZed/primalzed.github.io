@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1584477896952,
+  "timestamp": 1584480723897,
   "index": "/epitaph/index.html",
   "assetGroups": [
     {
@@ -42,6 +42,7 @@
         "/epitaph/assets/icons/icon-512x512.png",
         "/epitaph/assets/icons/icon-72x72.png",
         "/epitaph/assets/icons/icon-96x96.png",
+        "/epitaph/assets/icons/icon.svg",
         "/epitaph/futura-bold.5f98876a00f14f996a3b.ttf",
         "/epitaph/futura-book.4e1cb3055ec8aa56df85.ttf",
         "/epitaph/goudy-old-style-bold-bt.750637b1fc42afcccc5d.ttf",
@@ -69,7 +70,8 @@
     "/epitaph/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/epitaph/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/epitaph/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/epitaph/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/epitaph/assets/icons/icon.svg": "a79160c4648c174b91c22cc3c3377cc714e2ae66",
+    "/epitaph/favicon.ico": "d20dcf4a746ec33a319dfadfbd21ed35f12474be",
     "/epitaph/futura-bold.5f98876a00f14f996a3b.ttf": "b47a17f8da52563823024369fa13f7d941a39bdf",
     "/epitaph/futura-book.4e1cb3055ec8aa56df85.ttf": "a76a8a0988f25a9502f1de91667371b6255cb392",
     "/epitaph/goudy-old-style-bold-bt.750637b1fc42afcccc5d.ttf": "ab6f2408ec4a3de89195aebeb4885dfed195d2da",
@@ -77,7 +79,7 @@
     "/epitaph/index.html": "e76c81b07149acd9f6335b8c0da915351a9df41c",
     "/epitaph/main-es2015.38ef663f52e4ac10c55c.js": "78e96b32eb52710fb5353b88aa44834d049292ba",
     "/epitaph/main-es5.38ef663f52e4ac10c55c.js": "6dcdc02157be5991eacde8191655be9456545733",
-    "/epitaph/manifest.webmanifest": "f596a7f9ee130ac0d3bfa704886189e40c918b82",
+    "/epitaph/manifest.webmanifest": "4556a56a45cf2b6e27465bb68973808ad58b9aa2",
     "/epitaph/polyfills-es2015.12075d44d58525832d44.js": "98a79ea66d16fefe0a544514388a5617547d55bc",
     "/epitaph/polyfills-es5.8243fef0b92c3bca9a72.js": "fd9b85939bc57c5dc512f6fbc173b2faa3d907fb",
     "/epitaph/runtime-es2015.f5b417ad1816c2fe3519.js": "736f94ea69dd9d496971024f67d7d965d7f4d57d",
