@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1584497105118,
+  "timestamp": 1584796226096,
   "index": "/epitaph/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/epitaph/favicon.ico",
         "/epitaph/index.html",
-        "/epitaph/main-es2015.f9f11dab2eb7d7a78662.js",
-        "/epitaph/main-es5.f9f11dab2eb7d7a78662.js",
+        "/epitaph/main-es2015.36f105a84987e2773ad8.js",
+        "/epitaph/main-es5.36f105a84987e2773ad8.js",
         "/epitaph/manifest.webmanifest",
         "/epitaph/polyfills-es2015.12075d44d58525832d44.js",
         "/epitaph/polyfills-es5.8243fef0b92c3bca9a72.js",
@@ -76,9 +76,9 @@
     "/epitaph/futura-book.4e1cb3055ec8aa56df85.ttf": "a76a8a0988f25a9502f1de91667371b6255cb392",
     "/epitaph/goudy-old-style-bold-bt.750637b1fc42afcccc5d.ttf": "ab6f2408ec4a3de89195aebeb4885dfed195d2da",
     "/epitaph/goudy-old-style-bt.04b32be998a1c538ec0e.ttf": "7a1a4f0ea70065a807db3001e201f4a4714e702c",
-    "/epitaph/index.html": "486b737fd98d4f2656bc2faa930b7fe18e51406b",
-    "/epitaph/main-es2015.f9f11dab2eb7d7a78662.js": "0815127ef48e0f576d6ca1b37c580337030bcfe1",
-    "/epitaph/main-es5.f9f11dab2eb7d7a78662.js": "b9b26b0dc068e0b3ddd8f33c1b5f99a8d3bfbe0a",
+    "/epitaph/index.html": "439ccb8b7513c4572e53b427993e60683e76ba8d",
+    "/epitaph/main-es2015.36f105a84987e2773ad8.js": "7163b86a5b6a897ada6be929d81ce016a758a4a5",
+    "/epitaph/main-es5.36f105a84987e2773ad8.js": "12ce5a9c925616026b55d5b2a92aa3aabef9bee4",
     "/epitaph/manifest.webmanifest": "f596a7f9ee130ac0d3bfa704886189e40c918b82",
     "/epitaph/polyfills-es2015.12075d44d58525832d44.js": "98a79ea66d16fefe0a544514388a5617547d55bc",
     "/epitaph/polyfills-es5.8243fef0b92c3bca9a72.js": "fd9b85939bc57c5dc512f6fbc173b2faa3d907fb",
