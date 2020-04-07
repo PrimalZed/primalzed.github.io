@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1584796226096,
+  "timestamp": 1586291484143,
   "index": "/epitaph/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/epitaph/favicon.ico",
         "/epitaph/index.html",
-        "/epitaph/main-es2015.36f105a84987e2773ad8.js",
-        "/epitaph/main-es5.36f105a84987e2773ad8.js",
+        "/epitaph/main-es2015.b17a4bc3c2d74d08f261.js",
+        "/epitaph/main-es5.b17a4bc3c2d74d08f261.js",
         "/epitaph/manifest.webmanifest",
         "/epitaph/polyfills-es2015.12075d44d58525832d44.js",
         "/epitaph/polyfills-es5.8243fef0b92c3bca9a72.js",
@@ -55,7 +55,7 @@
   "dataGroups": [],
   "hashTable": {
     "/epitaph/assets/data/conditions.json": "67bc538a240418bd5c99503299bdfaa95b370fec",
-    "/epitaph/assets/data/haunts.json": "d2138a95474813da33d19cde5e6ab9cf7b37cdb4",
+    "/epitaph/assets/data/haunts.json": "32d7313ae95d016914ce925b4bde2fd2051a9f73",
     "/epitaph/assets/data/keys.json": "b635aca8c2f3c146b5438fa8a2f5848731d311c5",
     "/epitaph/assets/fonts/futura-bold.ttf": "b47a17f8da52563823024369fa13f7d941a39bdf",
     "/epitaph/assets/fonts/futura-book.ttf": "a76a8a0988f25a9502f1de91667371b6255cb392",
@@ -76,9 +76,9 @@
     "/epitaph/futura-book.4e1cb3055ec8aa56df85.ttf": "a76a8a0988f25a9502f1de91667371b6255cb392",
     "/epitaph/goudy-old-style-bold-bt.750637b1fc42afcccc5d.ttf": "ab6f2408ec4a3de89195aebeb4885dfed195d2da",
     "/epitaph/goudy-old-style-bt.04b32be998a1c538ec0e.ttf": "7a1a4f0ea70065a807db3001e201f4a4714e702c",
-    "/epitaph/index.html": "439ccb8b7513c4572e53b427993e60683e76ba8d",
-    "/epitaph/main-es2015.36f105a84987e2773ad8.js": "7163b86a5b6a897ada6be929d81ce016a758a4a5",
-    "/epitaph/main-es5.36f105a84987e2773ad8.js": "12ce5a9c925616026b55d5b2a92aa3aabef9bee4",
+    "/epitaph/index.html": "f44fb541c5d3eb9e3253c5b8b27021e7b2ec6748",
+    "/epitaph/main-es2015.b17a4bc3c2d74d08f261.js": "23044c6c65a372f93c37d186e68b9d6214f93109",
+    "/epitaph/main-es5.b17a4bc3c2d74d08f261.js": "e0c36c98df43cca095dcf4574a5a0201b9479622",
     "/epitaph/manifest.webmanifest": "f596a7f9ee130ac0d3bfa704886189e40c918b82",
     "/epitaph/polyfills-es2015.12075d44d58525832d44.js": "98a79ea66d16fefe0a544514388a5617547d55bc",
     "/epitaph/polyfills-es5.8243fef0b92c3bca9a72.js": "fd9b85939bc57c5dc512f6fbc173b2faa3d907fb",
