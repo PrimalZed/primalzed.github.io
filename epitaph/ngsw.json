@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586704208654,
+  "timestamp": 1587310289082,
   "index": "/epitaph/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/epitaph/favicon.ico",
         "/epitaph/index.html",
-        "/epitaph/main-es2015.1635a3b978980d41901f.js",
-        "/epitaph/main-es5.1635a3b978980d41901f.js",
+        "/epitaph/main-es2015.3d7dcc254daa68238120.js",
+        "/epitaph/main-es5.3d7dcc254daa68238120.js",
         "/epitaph/manifest.webmanifest",
         "/epitaph/polyfills-es2015.12075d44d58525832d44.js",
         "/epitaph/polyfills-es5.8243fef0b92c3bca9a72.js",
         "/epitaph/runtime-es2015.f5b417ad1816c2fe3519.js",
         "/epitaph/runtime-es5.f5b417ad1816c2fe3519.js",
-        "/epitaph/styles.1bf8a471538d6ab1ef25.css"
+        "/epitaph/styles.36cd3dd28bea7feca8ad.css"
       ],
       "patterns": []
     },
@@ -26,6 +26,9 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/epitaph/Geist_Background_Row.092f93fb42f74c89ea42.png",
+        "/epitaph/Geist_Left_Border_Inverse.ee33c423b9d5d1dee878.png",
+        "/epitaph/Geist_Right_Border_Inverse.cd3a68e8ec3b1fca5eb3.png",
         "/epitaph/assets/data/conditions.json",
         "/epitaph/assets/data/haunts.json",
         "/epitaph/assets/data/keys.json",
@@ -43,6 +46,9 @@
         "/epitaph/assets/icons/icon-72x72.png",
         "/epitaph/assets/icons/icon-96x96.png",
         "/epitaph/assets/icons/icon.svg",
+        "/epitaph/assets/images/Geist_Background_Row.png",
+        "/epitaph/assets/images/Geist_Left_Border_Inverse.png",
+        "/epitaph/assets/images/Geist_Right_Border_Inverse.png",
         "/epitaph/futura-bold.5f98876a00f14f996a3b.ttf",
         "/epitaph/futura-book.4e1cb3055ec8aa56df85.ttf",
         "/epitaph/goudy-old-style-bold-bt.750637b1fc42afcccc5d.ttf",
@@ -54,6 +60,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/epitaph/Geist_Background_Row.092f93fb42f74c89ea42.png": "af9234b4ed7b2c65c842122caf2f463324665bfe",
+    "/epitaph/Geist_Left_Border_Inverse.ee33c423b9d5d1dee878.png": "e4c9af2de6ceb9a3044e46ee49def50951e6f0fa",
+    "/epitaph/Geist_Right_Border_Inverse.cd3a68e8ec3b1fca5eb3.png": "4b1dc5da3b55a6dc2a2d9dab2edff340d38cdfdb",
     "/epitaph/assets/data/conditions.json": "67bc538a240418bd5c99503299bdfaa95b370fec",
     "/epitaph/assets/data/haunts.json": "32d7313ae95d016914ce925b4bde2fd2051a9f73",
     "/epitaph/assets/data/keys.json": "b635aca8c2f3c146b5438fa8a2f5848731d311c5",
@@ -71,20 +80,23 @@
     "/epitaph/assets/icons/icon-72x72.png": "1327f13709f6c4a429403b52c0e323fe8ff1a515",
     "/epitaph/assets/icons/icon-96x96.png": "72ab099472a42f82426711e0b0cf32c0a7432bfc",
     "/epitaph/assets/icons/icon.svg": "a79160c4648c174b91c22cc3c3377cc714e2ae66",
+    "/epitaph/assets/images/Geist_Background_Row.png": "af9234b4ed7b2c65c842122caf2f463324665bfe",
+    "/epitaph/assets/images/Geist_Left_Border_Inverse.png": "e4c9af2de6ceb9a3044e46ee49def50951e6f0fa",
+    "/epitaph/assets/images/Geist_Right_Border_Inverse.png": "4b1dc5da3b55a6dc2a2d9dab2edff340d38cdfdb",
     "/epitaph/favicon.ico": "d20dcf4a746ec33a319dfadfbd21ed35f12474be",
     "/epitaph/futura-bold.5f98876a00f14f996a3b.ttf": "b47a17f8da52563823024369fa13f7d941a39bdf",
     "/epitaph/futura-book.4e1cb3055ec8aa56df85.ttf": "a76a8a0988f25a9502f1de91667371b6255cb392",
     "/epitaph/goudy-old-style-bold-bt.750637b1fc42afcccc5d.ttf": "ab6f2408ec4a3de89195aebeb4885dfed195d2da",
     "/epitaph/goudy-old-style-bt.04b32be998a1c538ec0e.ttf": "7a1a4f0ea70065a807db3001e201f4a4714e702c",
-    "/epitaph/index.html": "ada38ef60833ba0cccea2d036cbbc1d449cd3c37",
-    "/epitaph/main-es2015.1635a3b978980d41901f.js": "b77b0cc0aa9da7df56400076dbe7ec66cebf31e4",
-    "/epitaph/main-es5.1635a3b978980d41901f.js": "fa019711131292af9b8edc895e25222d4ed15421",
+    "/epitaph/index.html": "dee3eda00eae04ed5c68a929906f8193c5705cff",
+    "/epitaph/main-es2015.3d7dcc254daa68238120.js": "9134a4e62585fb7d306bb243fc2ab0898aa3b18a",
+    "/epitaph/main-es5.3d7dcc254daa68238120.js": "dd9ea3bfbde43a66326d34c690d93eaaa14af645",
     "/epitaph/manifest.webmanifest": "f596a7f9ee130ac0d3bfa704886189e40c918b82",
     "/epitaph/polyfills-es2015.12075d44d58525832d44.js": "98a79ea66d16fefe0a544514388a5617547d55bc",
     "/epitaph/polyfills-es5.8243fef0b92c3bca9a72.js": "fd9b85939bc57c5dc512f6fbc173b2faa3d907fb",
     "/epitaph/runtime-es2015.f5b417ad1816c2fe3519.js": "736f94ea69dd9d496971024f67d7d965d7f4d57d",
     "/epitaph/runtime-es5.f5b417ad1816c2fe3519.js": "736f94ea69dd9d496971024f67d7d965d7f4d57d",
-    "/epitaph/styles.1bf8a471538d6ab1ef25.css": "ffbd1682b9ae964105fc98a211877651f062590d",
+    "/epitaph/styles.36cd3dd28bea7feca8ad.css": "54470e15b2decbfd1f6220023534aaf8198e93f2",
     "/epitaph/trinigan.05af5598a384359c0b75.ttf": "c0af3d04fd021afb371f71008f7b80b65f1207d9"
   },
   "navigationUrls": [
