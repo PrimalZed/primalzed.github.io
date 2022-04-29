@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1651198355901,
+  "index": "/haven-keeper/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/haven-keeper/favicon.ico",
+        "/haven-keeper/index.html",
+        "/haven-keeper/main.7409e485f0c63afa.js",
+        "/haven-keeper/manifest.webmanifest",
+        "/haven-keeper/polyfills.797abfa3bc018068.js",
+        "/haven-keeper/runtime.334c108c65fb88a2.js",
+        "/haven-keeper/styles.a63f434338fdd3b1.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/haven-keeper/assets/data/characters.json",
+        "/haven-keeper/assets/data/monster-ability-cards.json",
+        "/haven-keeper/assets/data/monsters.json",
+        "/haven-keeper/assets/fonts/htowert.ttf",
+        "/haven-keeper/assets/fonts/htowerti.ttf",
+        "/haven-keeper/assets/fonts/nyala.ttf",
+        "/haven-keeper/assets/fonts/pirata-one-gloomhaven.ttf",
+        "/haven-keeper/assets/icons/icon-128x128.png",
+        "/haven-keeper/assets/icons/icon-144x144.png",
+        "/haven-keeper/assets/icons/icon-152x152.png",
+        "/haven-keeper/assets/icons/icon-192x192.png",
+        "/haven-keeper/assets/icons/icon-384x384.png",
+        "/haven-keeper/assets/icons/icon-512x512.png",
+        "/haven-keeper/assets/icons/icon-72x72.png",
+        "/haven-keeper/assets/icons/icon-96x96.png",
+        "/haven-keeper/htowert.324fc43c0afe8bc7.ttf",
+        "/haven-keeper/htowerti.25de7069e71aac0e.ttf",
+        "/haven-keeper/nyala.ba8e78874ebd9558.ttf",
+        "/haven-keeper/pirata-one-gloomhaven.7a0430e6b6669ae2.ttf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/haven-keeper/assets/data/characters.json": "707db304ff50cc92c86f16c6bd8c8b1b016095d5",
+    "/haven-keeper/assets/data/monster-ability-cards.json": "b61e20867df7a53c306e7f52046eba5735e6364f",
+    "/haven-keeper/assets/data/monsters.json": "8b5d14b8ab93970cda7d8145c9fd367a50061378",
+    "/haven-keeper/assets/fonts/htowert.ttf": "0a26624d0fde9147ce63bb804ad1c2e2ddc7a804",
+    "/haven-keeper/assets/fonts/htowerti.ttf": "edae483a09a9c2b919ec27749bfe4ca2d7e8e956",
+    "/haven-keeper/assets/fonts/nyala.ttf": "1feec1966d29f939240540cdc1a89dffd5712db4",
+    "/haven-keeper/assets/fonts/pirata-one-gloomhaven.ttf": "21c25adcd4f559bff7d01f1855b20c6ae30f7b9b",
+    "/haven-keeper/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/haven-keeper/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/haven-keeper/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/haven-keeper/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/haven-keeper/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/haven-keeper/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/haven-keeper/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/haven-keeper/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/haven-keeper/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/haven-keeper/htowert.324fc43c0afe8bc7.ttf": "0a26624d0fde9147ce63bb804ad1c2e2ddc7a804",
+    "/haven-keeper/htowerti.25de7069e71aac0e.ttf": "edae483a09a9c2b919ec27749bfe4ca2d7e8e956",
+    "/haven-keeper/index.html": "c371d537f88e771ae3eedc17d8c521cedc42ae15",
+    "/haven-keeper/main.7409e485f0c63afa.js": "b4a8e8eb7d7da9adb08cf2c2dc196a0dc12029d9",
+    "/haven-keeper/manifest.webmanifest": "5dd4dc7bc28dbcb78bd3d26f45da9412a52b576a",
+    "/haven-keeper/nyala.ba8e78874ebd9558.ttf": "1feec1966d29f939240540cdc1a89dffd5712db4",
+    "/haven-keeper/pirata-one-gloomhaven.7a0430e6b6669ae2.ttf": "21c25adcd4f559bff7d01f1855b20c6ae30f7b9b",
+    "/haven-keeper/polyfills.797abfa3bc018068.js": "10ab5fcd38184dcb26d6d98487c7272b48879f04",
+    "/haven-keeper/runtime.334c108c65fb88a2.js": "8f7e5f3b9063ec3dd5f1c41e35241b3a8edfbcf4",
+    "/haven-keeper/styles.a63f434338fdd3b1.css": "7bd3766e4e679c3fe69ca558c286b8574ddaf5f1"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
