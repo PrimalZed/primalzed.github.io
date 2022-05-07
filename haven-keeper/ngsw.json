@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1651206264314,
+  "timestamp": 1651942004066,
   "index": "/haven-keeper/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
+        "/haven-keeper/471.47f43a5ee9aaa1b1.js",
         "/haven-keeper/favicon.ico",
         "/haven-keeper/index.html",
-        "/haven-keeper/main.135c9282ce2d8781.js",
+        "/haven-keeper/main.f79aed3470cbb7b1.js",
         "/haven-keeper/manifest.webmanifest",
-        "/haven-keeper/polyfills.797abfa3bc018068.js",
-        "/haven-keeper/runtime.334c108c65fb88a2.js",
-        "/haven-keeper/styles.edf72a41eab5a4af.css"
+        "/haven-keeper/polyfills.d26abab483afb33d.js",
+        "/haven-keeper/runtime.fd66677b8fca5a0f.js",
+        "/haven-keeper/styles.ad0e402adeb41375.css"
       ],
       "patterns": []
     },
@@ -29,9 +30,11 @@
         "ignoreVary": true
       },
       "urls": [
+        "/haven-keeper/MaterialIcons-Regular.0f288ba60b4d52de.ttf",
         "/haven-keeper/assets/data/characters.json",
         "/haven-keeper/assets/data/monster-ability-cards.json",
         "/haven-keeper/assets/data/monsters.json",
+        "/haven-keeper/assets/fonts/MaterialIcons-Regular.ttf",
         "/haven-keeper/assets/fonts/htowert.ttf",
         "/haven-keeper/assets/fonts/htowerti.ttf",
         "/haven-keeper/assets/fonts/nyala.ttf",
@@ -55,9 +58,12 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/haven-keeper/471.47f43a5ee9aaa1b1.js": "7408b55f4c775638472615c971d041b389b83172",
+    "/haven-keeper/MaterialIcons-Regular.0f288ba60b4d52de.ttf": "4f22bf4071ca25806d08b24a9f3c0c81d6764c94",
     "/haven-keeper/assets/data/characters.json": "707db304ff50cc92c86f16c6bd8c8b1b016095d5",
     "/haven-keeper/assets/data/monster-ability-cards.json": "b61e20867df7a53c306e7f52046eba5735e6364f",
     "/haven-keeper/assets/data/monsters.json": "8b5d14b8ab93970cda7d8145c9fd367a50061378",
+    "/haven-keeper/assets/fonts/MaterialIcons-Regular.ttf": "4f22bf4071ca25806d08b24a9f3c0c81d6764c94",
     "/haven-keeper/assets/fonts/htowert.ttf": "0a26624d0fde9147ce63bb804ad1c2e2ddc7a804",
     "/haven-keeper/assets/fonts/htowerti.ttf": "edae483a09a9c2b919ec27749bfe4ca2d7e8e956",
     "/haven-keeper/assets/fonts/nyala.ttf": "1feec1966d29f939240540cdc1a89dffd5712db4",
@@ -74,14 +80,14 @@
     "/haven-keeper/favicon.ico": "c8e034ac643c7e8dc868455278d3692d95a6847c",
     "/haven-keeper/htowert.324fc43c0afe8bc7.ttf": "0a26624d0fde9147ce63bb804ad1c2e2ddc7a804",
     "/haven-keeper/htowerti.25de7069e71aac0e.ttf": "edae483a09a9c2b919ec27749bfe4ca2d7e8e956",
-    "/haven-keeper/index.html": "45f5aa4e1032214edabca6a1cf6c20110a93ce89",
-    "/haven-keeper/main.135c9282ce2d8781.js": "edf9f2448bbd9aef1b4fde58c71f21f9de235d42",
+    "/haven-keeper/index.html": "c9fb0ccba958378da94a28bc3df0ad96a94d8a6c",
+    "/haven-keeper/main.f79aed3470cbb7b1.js": "ecb4f6ef680ee86bd2bb6cc2518566c3e96582af",
     "/haven-keeper/manifest.webmanifest": "011b7cc8d557300e95b684d827bcf4e00d5356a7",
     "/haven-keeper/nyala.ba8e78874ebd9558.ttf": "1feec1966d29f939240540cdc1a89dffd5712db4",
     "/haven-keeper/pirata-one-gloomhaven.7a0430e6b6669ae2.ttf": "21c25adcd4f559bff7d01f1855b20c6ae30f7b9b",
-    "/haven-keeper/polyfills.797abfa3bc018068.js": "10ab5fcd38184dcb26d6d98487c7272b48879f04",
-    "/haven-keeper/runtime.334c108c65fb88a2.js": "8f7e5f3b9063ec3dd5f1c41e35241b3a8edfbcf4",
-    "/haven-keeper/styles.edf72a41eab5a4af.css": "6e051ae71d1fb8774a4fe8c008b4f51e621406a7"
+    "/haven-keeper/polyfills.d26abab483afb33d.js": "9b7d2f5097275209175f37a547b606b0915c7620",
+    "/haven-keeper/runtime.fd66677b8fca5a0f.js": "580a16dcd96a62daba655a6c446a9f074bf76faa",
+    "/haven-keeper/styles.ad0e402adeb41375.css": "5668b5c2fb401767cb4453cfbf593158916c7661"
   },
   "navigationUrls": [
     {
