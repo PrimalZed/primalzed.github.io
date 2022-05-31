@@ -1,4 +1,80 @@
 {
+  "livingBones": [
+    {
+      "id": 516,
+      "name": "Living Bones",
+      "initiative": 64,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 517,
+      "name": "Living Bones",
+      "initiative": 20,
+      "abilities": [
+        { "kind": "move", "modifier": -2 },
+        { "kind": "attack", "modifier": 0 },
+        { "kind": "heal", "amount": 2, "target": "self"}
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 518,
+      "name": "Living Bones",
+      "initiative": 25,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 519,
+      "name": "Living Bones",
+      "initiative": 45,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 520,
+      "name": "Living Bones",
+      "initiative": 45,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 521,
+      "name": "Living Bones",
+      "initiative": 81,
+      "abilities": [
+        { "kind": "attack", "modifier": 2 }
+      ]
+    },
+    {
+      "id": 522,
+      "name": "Living Bones",
+      "initiative": 74,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0, "effects": [{ "kind": "other", "description": "Target one enemy with all attacks" }] }
+      ]
+    },
+    {
+      "id": 523,
+      "name": "Living Bones",
+      "initiative": 12,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 1 },
+        { "kind": "heal", "amount": 2, "target": "self" }
+      ],
+      "shuffle": true
+    }
+  ],
   "guard": [
     {
       "id": 524,
@@ -62,7 +138,7 @@
       "abilities": [
         { "kind": "move", "modifier": -1 },
         { "kind": "attack", "modifier": 0 },
-        { "kind": "condition", "condition": "strengthen", "target": "self" }
+        { "kind": "condition", "conditions": ["strengthen"], "target": "self" }
       ]
     },
     {
@@ -137,7 +213,7 @@
       "abilities": [
         { "kind": "move", "modifier": -1 },
         { "kind": "attack", "modifier": -1 },
-        { "kind": "special", "description": "Create a 3 damage trap in an adjacent empty hex closest to an enemy."}
+        { "kind": "other", "description": "Create a 3 damage trap in an adjacent empty hex closest to an enemy."}
       ]
     },
     {
@@ -149,6 +225,160 @@
         { "kind": "attack", "modifier": -1, "range": 1, "effects": [{ "kind": "condition", "condition": "immobilize" }] }
       ],
       "shuffle": true
+    }
+  ],
+  "hound": [
+    {
+      "id": 540,
+      "name": "Hound",
+      "initiative": 6,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 0, "effects": [{ "kind": "condition", "condition": "immobilize" }] }
+      ]
+    },
+    {
+      "id": 541,
+      "name": "Hound",
+      "initiative": 7,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "condition", "conditions": ["muddle"], "target": "adjacentEnemies" }
+      ]
+    },
+    {
+      "id": 542,
+      "name": "Hound",
+      "initiative": 19,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0, "effects": [{ "kind": "other", "description": "Add +2 Attack {A} if the target is adjacent to any of the Hound's allies." }] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 543,
+      "name": "Hound",
+      "initiative": 19,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0, "effects": [{ "kind": "other", "description": "Add +2 Attack {A} if the target is adjacent to any of the Hound's allies." }] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 544,
+      "name": "Hound",
+      "initiative": 26,
+      "abilities": [
+        {  "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 545,
+      "name": "Hound",
+      "initiative": 26,
+      "abilities": [
+        {  "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 546,
+      "name": "Hound",
+      "initiative": 83,
+      "abilities": [
+        { "kind": "move", "modifier": -2 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 547,
+      "name": "Hound",
+      "initiative": 72,
+      "abilities": [
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "effect", "effect": "pierce", "amount": 2 }] },
+        { "kind": "move", "modifier": -2 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "effect", "effect": "pierce", "amount": 2 }] }
+      ]
+    }
+  ],
+  "livingCorpse": [
+    {
+      "id": 564,
+      "name": "Living Corpse",
+      "initiative": 21,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "condition", "conditions": ["muddle", "immobilize"], "target": "enemy" }
+      ]
+    },
+    {
+      "id": 565,
+      "name": "Living Corpse",
+      "initiative": 47,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 566,
+      "name": "Living Corpse",
+      "initiative": 66,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 567,
+      "name": "Living Corpse",
+      "initiative": 66,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 568,
+      "name": "Living Corpse",
+      "initiative": 82,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 569,
+      "name": "Living Corpse",
+      "initiative": 91,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "other", "description": "Living Corpse suffers 1 damage."}
+      ]
+    },
+    {
+      "id": 570,
+      "name": "Living Corpse",
+      "initiative": 71,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 1 },
+        { "kind": "condition", "conditions": ["poison"], "target": "adjacentEnemies" }
+      ]
+    },
+    {
+      "id": 571,
+      "name": "Living Corpse",
+      "initiative": 32,
+      "abilities": [
+        { "kind": "attack", "modifier": 2, "effects": [{ "kind": "effect", "effect": "push", "amount": 1 }] },
+        { "kind": "other", "description": "Living Corpse suffers 1 damage." }
+      ]
     }
   ],
   "boss": [
@@ -218,6 +448,1279 @@
       "abilities": [
         { "kind": "move", "modifier": -1 },
         { "kind": "attack", "modifier": -1, "range": 3, "target": 2 }
+      ]
+    }
+  ],  "livingSpirit": [
+    {
+      "id": 580,
+      "name": "Living Spirit",
+      "initiative": 22,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "condition", "condition": "muddle" }] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 581,
+      "name": "Living Spirit",
+      "initiative": 33,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "target": "all" }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 582,
+      "name": "Living Spirit",
+      "initiative": 48,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 583,
+      "name": "Living Spirit",
+      "initiative": 48,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 584,
+      "name": "Living Spirit",
+      "initiative": 61,
+      "abilities": [
+        { "kind": "attack", "modifier": 0, "range": -1, "target": 2 }
+      ]
+    },
+    {
+      "id": 585,
+      "name": "Living Spirit",
+      "initiative": 75,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1, "range": -1 },
+        { "kind": "heal", "amount": 1, "target": "self" }
+      ]
+    },
+    {
+      "id": 586,
+      "name": "Living Spirit",
+      "initiative": 55,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "condition", "conditions": ["curse"], "target": "allEnemies" },
+        { "kind": "infuseElement", "element": "ice" }
+      ]
+    },
+    {
+      "id": 587,
+      "name": "Living Spirit",
+      "initiative": 67,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1, "elementEnhancements": { "ice": { "conditions": ["stun"] } } }
+      ]
+    }
+  ],
+  "shaman": [
+    {
+      "id": 588,
+      "name": "Shaman",
+      "initiative": 8,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "condition", "condition": "disarm" }] }
+      ]
+    },
+    {
+      "id": 589,
+      "name": "Shaman",
+      "initiative": 8,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 0, "effects": [{ "kind": "condition", "condition": "immobilize" }] }
+      ]
+    },
+    {
+      "id": 590,
+      "name": "Shaman",
+      "initiative": 23,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "heal", "amount": 3, "range": 3 }
+      ],
+	    "shuffle": true
+    },
+    {
+      "id": 591,
+      "name": "Shaman",
+      "initiative": 23,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "heal", "amount": 3, "range": 3 }
+      ],
+	    "shuffle": true
+    },
+    {
+      "id": 592,
+      "name": "Shaman",
+      "initiative": 62,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 593,
+      "name": "Shaman",
+      "initiative": 74,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 594,
+      "name": "Shaman",
+      "initiative": 89,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "heal", "amount": 1, "target": "adjacent" },
+		    { "kind": "condition", "conditions": ["bless"], "target": "self" }
+      ]
+    },
+    {
+      "id": 595,
+      "name": "Shaman",
+      "initiative": 9,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1, "target": 2, "effects": [{ "kind": "condition", "condition": "curse" }] }
+        ]
+    }
+  ],
+  "caveBear": [
+    {
+      "id": 596,
+      "name": "Cave Bear",
+      "initiative": 13,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 597,
+      "name": "Cave Bear",
+      "initiative": 14,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "condition", "condition": "immobilize" }] }
+      ]
+    },
+    {
+      "id": 598,
+      "name": "Cave Bear",
+      "initiative": 34,
+      "abilities": [
+        { "kind": "attack", "modifier": 1, "effects": [{ "kind": "condition", "condition": "wound" }] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 599,
+      "name": "Cave Bear",
+      "initiative": 41,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 600,
+      "name": "Cave Bear",
+      "initiative": 60,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 601,
+      "name": "Cave Bear",
+      "initiative": 80,
+      "abilities": [
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "move", "modifier": -2 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "condition", "condition": "wound" }] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 602,
+      "name": "Cave Bear",
+      "initiative": 61,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "target": 2 }
+      ]
+    },
+    {
+      "id": 603,
+      "name": "Cave Bear",
+      "initiative": 3,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 1 },
+        { "kind": "bonus", "bonus": "retaliate", "amount": 2 },
+        { "kind": "heal", "amount": 2, "target": "self" }
+      ]
+    }
+  ],
+  "cultist": [
+    {
+      "id": 604,
+      "name": "Cultist",
+      "initiative": 10,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1 }
+      ],
+      "deathAbilities": [
+        { "kind": "attack", "modifier": 2, "aoe": [{ "length": 2 }, { "length": 3, "origin": 1 }, { "length": 2 }] }
+      ]
+    },
+    {
+      "id": 605,
+      "name": "Cultist",
+      "initiative": 10,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1 }
+      ],
+      "deathAbilities": [
+        { "kind": "attack", "modifier": 2, "aoe": [{ "length": 2 }, { "length": 3, "origin": 1 }, { "length": 2 }] }
+      ]
+    },
+    {
+      "id": 606,
+      "name": "Cultist",
+      "initiative": 27,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 607,
+      "name": "Cultist",
+      "initiative": 27,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 608,
+      "name": "Cultist",
+      "initiative": 39,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 0 },
+        { "kind": "heal", "amount": 1, "target": "self" }
+      ]
+    },
+    {
+      "id": 609,
+      "name": "Cultist",
+      "initiative": 63,
+      "abilities": [
+        { "kind": "other", "description": "Summon normal Living Bones" },
+        { "kind": "other", "description": "Cultist suffers 2 damage." }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 610,
+      "name": "Cultist",
+      "initiative": 63,
+      "abilities": [
+        { "kind": "other", "description": "Summon normal Living Bones" },
+        { "kind": "other", "description": "Cultist suffers 2 damage." }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 611,
+      "name": "Cultist",
+      "initiative": 31,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "heal", "amount": 3, "range": 3 }
+      ]
+    }
+  ],
+  "lurker": [
+    {
+      "id": 612,
+      "name": "Lurker",
+      "initiative": 11,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 1, "elementEnhancements": { "ice": { "other": "Shield {S} 2 instead" } } },
+        { "kind": "condition", "conditions": ["wound"], "target": "adjacentEnemies" }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 613,
+      "name": "Lurker",
+      "initiative": 28,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 614,
+      "name": "Lurker",
+      "initiative": 38,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 615,
+      "name": "Lurker",
+      "initiative": 38,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0, "effects": [{ "kind": "other", "description": "Target one enemy with all attacks" }] }
+      ]
+    },
+    {
+      "id": 616,
+      "name": "Lurker",
+      "initiative": 61,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 617,
+      "name": "Lurker",
+      "initiative": 64,
+      "abilities": [
+        { "kind": "attack", "modifier": 1, "target": "adjacent" }
+      ]
+    },
+    {
+      "id": 618,
+      "name": "Lurker",
+      "initiative": 41,
+      "abilities": [
+        { "kind": "condition", "conditions": ["strengthen"], "target": "self", "consumeElement": "ice" },
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "condition", "condition": "wound" }] }
+      ]
+    },
+    {
+      "id": 619,
+      "name": "Lurker",
+      "initiative": 23,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 1 },
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "infuseElement", "element": "ice" }
+      ],
+      "shuffle": true
+    }
+  ],
+  "frostDemon": [
+    {
+      "id": 620,
+      "name": "Frost Demon",
+      "initiative": 18,
+      "abilities": [
+        { "kind": "condition", "conditions": ["immobilize"], "target": "adjacentEnemies", "range": 2 },
+        { "kind": "heal", "amount": 3, "target": "self", "consumeElement": "ice" }
+      ]
+    },
+    {
+      "id": 621,
+      "name": "Frost Demon",
+      "initiative": 38,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 622,
+      "name": "Frost Demon",
+      "initiative": 58,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 623,
+      "name": "Frost Demon",
+      "initiative": 58,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 0, "range": 2, "elementEnhancements": { "ice": { "modifier": 2, "range": 1 } } }
+      ]
+    },
+    {
+      "id": 624,
+      "name": "Frost Demon",
+      "initiative": 78,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 0, "aoe": [{ "length": 1 }, { "length": 2, "origin": 0 }] },
+        { "kind": "infuseElement", "element": "ice" }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 625,
+      "name": "Frost Demon",
+      "initiative": 78,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 0, "aoe": [{ "length": 1 }, { "length": 2, "origin": 0 }] },
+        { "kind": "infuseElement", "element": "ice" }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 626,
+      "name": "Frost Demon",
+      "initiative": 58,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "effect", "effect": "pierce", "amount": 3 }] },
+        { "kind": "infuseElement", "element": "ice", "consumeElement": "wild" }
+      ]
+    },
+    {
+      "id": 627,
+      "name": "Frost Demon",
+      "initiative": 18,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 2 },
+        { "kind": "move", "modifier": 1 },
+        { "kind": "other", "description": "Frost Demon suffers 1 damage.", "consumeElement": "fire" }
+      ]
+    }
+  ],
+  "flameDemon": [
+    {
+      "id": 628,
+      "name": "Flame Demon",
+      "initiative": 3,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "infuseElement", "element": "fire" }
+      ]
+    },
+    {
+      "id": 629,
+      "name": "Flame Demon",
+      "initiative": 24,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 },
+        { "kind": "infuseElement", "element": "fire" }
+      ]
+    },
+    {
+      "id": 630,
+      "name": "Flame Demon",
+      "initiative": 46,
+      "abilities": [
+        { "kind": "attack", "modifier": 0, "elementEnhancements": { "fire": { "aoe": [{ "length": 2 }, { "length": 3 }, { "length": 2 }] } } }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 631,
+      "name": "Flame Demon",
+      "initiative": 49,
+      "abilities": [
+        {
+          "kind": "attack",
+          "modifier": 0,
+          "aoe": [{ "length": 1, "offset": 1 }, { "length": "1", "offset": "1" }, { "length": 1, "origin": 1 }],
+          "elementalEnhancements": { "fire": { "modifier": 1, "conditions": ["wound"] } }
+        }
+      ]
+    },
+    {
+      "id": 632,
+      "name": "Flame Demon",
+      "initiative": 67,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1, "range": -1 },
+        { "kind": "infuseElement", "element": "fire" }
+      ]
+    },
+    {
+      "id": 633,
+      "name": "Flame Demon",
+      "initiative": 77,
+      "abilities": [
+        { "kind": "attack", "modifier": 0, "target": "adjacent" },
+        { "kind": "other", "description": "Flame Demon suffers 1 damage.", "consumeElement": "ice" }
+      ]
+    },
+    {
+      "id": 634,
+      "name": "Flame Demon",
+      "initiative": 77,
+      "abilities": [
+        { "kind": "other", "description": "All adjacent enemies suffer 2 damage.", "consumeElement": "fire" },
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -2, "target": 2, "effects": [{ "kind": "condition", "condition": "wound" }] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 635,
+      "name": "Flame Demon",
+      "initiative": 8,
+      "abilities": [
+        { "kind": "move", "amount": -1 },
+        { "kind": "other", "description": "Create a 4 damage trap in an adjacent empty hex closest to an enemy." },
+        { "kind": "infuseElement", "element": "fire", "consumeElement": "wild" }
+      ]
+    }
+  ],
+  "earthDemon": [
+    {
+      "id": 636,
+      "name": "Earth Demon",
+      "initiative": 40,
+      "abilities": [
+        { "kind": "heal", "amount": 3, "target": "self" },
+        { "kind": "condition", "conditions": ["immobilize"], "target": "adjacentEnemies", "range": 3, "consumeElement": "earth" }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 637,
+      "name": "Earth Demon",
+      "initiative": 42,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 638,
+      "name": "Earth Demon",
+      "initiative": 62,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 },
+        { "kind": "infuseElement", "element": "earth" }
+      ]
+    },
+    {
+      "id": 639,
+      "name": "Earth Demon",
+      "initiative": 71,
+      "abilities": [
+        { "kind": "attack", "modifier": 0, "range": 4, "elementEnhancements": {  "air": { "target": 2 } } }
+      ]
+    },
+    {
+      "id": 640,
+      "name": "Earth Demon",
+      "initiative": 83,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 },
+        { "kind": "infuseElement", "element": "earth" }
+      ]
+    },
+    {
+      "id": 641,
+      "name": "Earth Demon",
+      "initiative": 93,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "forcedMovement", "direction": "push", "amount": 1, "consumeElement": "earth" }
+      ]
+    },
+    {
+      "id": 642,
+      "name": "Earth Demon",
+      "initiative": 79,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": 0, "elementEnhancements": { "air": { "modifier": -2 } } }
+      ]
+    },
+    {
+      "id": 643,
+      "name": "Earth Demon",
+      "initiative": 87,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "aoe": [{ "length": 2 }, { "length": "2", "origin": 0 }] },
+        { "kind": "infuseElement", "element": "earth", "consumeElement": "wild" }
+      ]
+    }
+  ],
+  "nightDemon": [
+    {
+      "id": 660,
+      "name": "Night Demon",
+      "initiative": 4,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "infuseElement", "element": "dark" }
+      ]
+    },
+    {
+      "id": 661,
+      "name": "Night Demon",
+      "initiative": 7,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "condition", "conditions": ["invisible"], "target": "self", "consumeElement": "dark" }
+      ]
+    },
+    {
+      "id": 662,
+      "name": "Night Demon",
+      "initiative": 22,
+      "abilities": [
+        { "kind": "move",  "modifier": 0 },
+        { "kind": "attack", "modifier": 0 },
+        { "kind": "infuseElement", "element": "dark" }
+      ]
+    },
+    {
+      "id": 663,
+      "name": "Night Demon",
+      "initiative": 26,
+      "abilities": [
+        { "kind": "attack", "modifier": -2, "range": 3, "target": 3, "elementEnhancements": { "dark": { "conditions": ["muddle"]} } }
+      ]
+    },
+    {
+      "id": 664,
+      "name": "Night Demon",
+      "initiative": 46,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1, "elementEnhancements": { "dark": { "modifier": 2 } } }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 665,
+      "name": "Night Demon",
+      "initiative": 41,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 },
+        { "kind": "infuseElement", "element": "dark" }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 666,
+      "name": "Night Demon",
+      "initiative": 35,
+      "abilities": [
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "effect", "effect": "pierce", "amount": 2 }] },
+        { "kind": "condition", "conditions": ["curse"], "target": "self", "consumeElement": "light" }
+      ]
+    },
+    {
+      "id": 667,
+      "name": "Night Demon",
+      "initiative": 15,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "other", "description": "All adjacent enemies and allies suffer 1 damage." },
+        { "kind": "infuseElement", "element": "dark", "consumeElement": "wild" }
+      ]
+    }
+  ],
+  "scout": [
+    {
+      "id": 668,
+      "name": "Scout",
+      "initiative": 29,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1, "range": 3 }
+      ]
+    },
+    {
+      "id": 669,
+      "name": "Scout",
+      "initiative": 40,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 670,
+      "name": "Scout",
+      "initiative": 53,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 671,
+      "name": "Scout",
+      "initiative": 54,
+      "abilities": [
+        { "kind": "move", "modifier": -2 },
+        { "kind": "attack", "modifier": 0, "range": 3, "effects": [{ "kind": "condition", "condition": "poison" }]}
+      ]
+    },
+    {
+      "id": 672,
+      "name": "Scout",
+      "initiative": 69,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 673,
+      "name": "Scout",
+      "initiative": 92,
+      "abilities": [
+        { "kind": "attack", "modifier": 2, "effects": [{ "kind": "condition", "condition": "poison" }] }
+      ],
+	  "shuffle": true
+    },
+    {
+      "id": 674,
+      "name": "Scout",
+      "initiative": 79,
+      "abilities": [
+        { "kind": "attack", "modifier": -1, "range": 4, "target": 2 }
+      ]
+    },
+    {
+      "id": 675,
+      "name": "Scout",
+      "initiative": 35,
+      "abilities": [
+        { "kind": "move", "modifier": 1, "jump": true },
+        { "kind": "loot", "range": 1 }
+      ],
+      "shuffle": true
+    }
+  ],
+  "imp": [
+    {
+      "id": 676,
+      "name": "Imp",
+      "initiative": 5,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 5 },
+        { "kind": "heal", "amount": 1, "target": "self" }
+      ]
+    },
+    {
+      "id": 677,
+      "name": "Imp",
+      "initiative": 37,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 678,
+      "name": "Imp",
+      "initiative": 37,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 679,
+      "name": "Imp",
+      "initiative": 42,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "heal", "amount": 2, "range": 3 }
+      ]
+    },
+    {
+      "id": 680,
+      "name": "Imp",
+      "initiative": 43,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "target": 2, "effects": [{ "kind": "condition", "condition": "poison" }] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 681,
+      "name": "Imp",
+      "initiative": 76,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 682,
+      "name": "Imp",
+      "initiative": 43,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "target": 2, "effects": [{ "kind": "condition", "condition": "curse" }] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 683,
+      "name": "Imp",
+      "initiative": 24,
+      "abilities": [
+        { "kind": "condition", "conditions": ["strengthen"], "target": "allAllies", "range": 2 },
+        { "kind": "condition", "conditions": ["muddle"], "target": "allEnemies", "range": 2 }
+      ]
+    }
+  ],
+  "giantViper": [
+    {
+      "id": 684,
+      "name": "Giant Viper",
+      "initiative": 32,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0, "effects": [{ "kind": "other", "description": "Add +2 Attack {A} if the target is adjacent to any of the Giant Viper's allies."}] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 685,
+      "name": "Giant Viper",
+      "initiative": 32,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0, "effects": [{ "kind": "other", "description": "Add +2 Attack {A} if the target is adjacent to any of the Giant Viper's allies."}] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 686,
+      "name": "Giant Viper",
+      "initiative": 11,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 687,
+      "name": "Giant Viper",
+      "initiative": 43,
+      "abilities": [
+        { "kind": "move", "modifier": 1, "jump": true },
+        { "kind": "attack", "modifier": -1, "target": "adjacent" }
+      ]
+    },
+    {
+      "id": 688,
+      "name": "Giant Viper",
+      "initiative": 58,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 689,
+      "name": "Giant Viper",
+      "initiative": 58,
+      "abilities": [
+        { "kind": "move", "modifier": 1, "jump": true },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "other", "description": "All attacks targeting Giant Viper this round gain Disadvantage." }] }
+      ]
+    },
+    {
+      "id": 690,
+      "name": "Giant Viper",
+      "initiative": 43,
+      "abilities": [
+        { "kind": "move", "modifier": -1, "jump": true },
+        { "kind": "attack", "modifier": 0, "target": 2 }
+      ]
+    },
+    {
+      "id": 691,
+      "name": "Giant Viper",
+      "initiative": 23,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "condition", "condition": "immobilize" }] },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    }
+  ],
+  "ooze": [
+    {
+      "id": 692,
+      "name": "Ooze",
+      "initiative": 36,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 693,
+      "name": "Ooze",
+      "initiative": 57,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 694,
+      "name": "Ooze",
+      "initiative": 59,
+      "abilities": [
+        { "kind": "attack", "modifier": 0, "target": 2, "effects": [{ "kind": "condition", "condition": "poison" }] }
+      ]
+    },
+    {
+      "id": 695,
+      "name": "Ooze",
+      "initiative": 66,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1, "range": 1 }
+      ]
+    },
+    {
+      "id": 696,
+      "name": "Ooze",
+      "initiative": 94,
+      "abilities": [
+        { "kind": "other", "description": "Ooze suffers 2 damage." },
+        {
+          "kind": "other",
+          "description": "Summon normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)"
+        }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 697,
+      "name": "Ooze",
+      "initiative": 94,
+      "abilities": [
+        { "kind": "other", "description": "Ooze suffers 2 damage." },
+        {
+          "kind": "other",
+          "description": "Summon normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)"
+        }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 698,
+      "name": "Ooze",
+      "initiative": 66,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "loot", "range": 1 },
+        { "kind": "heal", "amount": 2, "target": "self" }
+      ]
+    },
+    {
+      "id": 699,
+      "name": "Ooze",
+      "initiative": 85,
+      "abilities": [
+        { "kind": "condition", "conditions": ["push", "poison"], "target": "adjacentEnemies" },
+        { "kind": "attack", "modifier": 1, "range": -1 }
+      ]
+    }
+  ],
+  "ancientArtillery": [
+    {
+      "id": 700,
+      "name": "Ancient Artillery",
+      "initiative": 46,
+      "abilities": [
+        { "kind": "attack", "modifier": -1, "range": 2 }
+      ]
+    },
+    {
+      "id": 701,
+      "name": "Ancient Artillery",
+      "initiative": 71,
+      "abilities": [
+        { "kind": "attack", "modifier": 0 },
+        { "kind": "other", "description": "All adjacent enemies suffer 2 damage."}
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 702,
+      "name": "Ancient Artillery",
+      "initiative": 71,
+      "abilities": [
+        { "kind": "attack", "modifier": 0 },
+        { "kind": "other", "description": "All adjacent enemies suffer 2 damage."}
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 703,
+      "name": "Ancient Artillery",
+      "initiative": 37,
+      "abilities": [
+        { "kind": "forcedMovement", "direction": "push", "amount": 1, "target": "adjacent" },
+        { "kind": "attack", "modifier": -1, "range": -1, "aoe": [{ "length": 1 },{ "length": 2 }] }
+      ]
+    },
+    {
+      "id": 704,
+      "name": "Ancient Artillery",
+      "initiative": 37,
+      "abilities": [
+        { "kind": "forcedMovement", "direction": "push", "amount": 1, "target": "adjacent" },
+        { "kind": "attack", "modifier": -1, "range": -1, "aoe": [{ "length": 2 },{ "length": 3}, { "length": 2 }] }
+      ]
+    },
+    {
+      "id": 705,
+      "name": "Ancient Artillery",
+      "initiative": 95,
+      "abilities": [
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 706,
+      "name": "Ancient Artillery",
+      "initiative": 17,
+      "abilities": [
+        { "kind": "forcedMovement", "direction": "push", "amount": 2, "target": "adjacent" },
+        { "kind": "bonus", "bonus": "shield", "amount": 2 },
+        { "kind": "attack", "modifier": -2 }
+      ]
+    },
+    {
+      "id": 707,
+      "name": "Ancient Artillery",
+      "initiative": 46,
+      "abilities": [
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "condition", "condition": "immobilize" }], "aoe": [{ "length": 1 },{ "length": 2 }] }
+      ]
+    }
+  ],
+  "harrowerInfester": [
+    {
+      "id": 724,
+      "name": "Harrower Infester",
+      "initiative": 38,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1, "target": 2 }
+      ]
+    },
+    {
+      "id": 725,
+      "name": "Harrower Infester",
+      "initiative": 7,
+      "abilities": [ { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "effects": [{ "kind": "condition", "condition": "poison" }] },
+        { "kind": "infuseElement", "element": "dark" }
+      ]
+    },
+    {
+      "id": 726,
+      "name": "Harrower Infester",
+      "initiative": 16,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "heal", "amount": 5 }
+      ]
+    },
+    {
+      "id": 727,
+      "name": "Harrower Infester",
+      "initiative": 16,
+      "abilities": [
+        { "kind": "attack", "modifier": 2, "effects": [{ "kind": "condition", "condition": "immobilize" }] },
+        { "kind": "bonus", "bonus": "retaliate", "amount": 2 }
+      ]
+    },
+    {
+      "id": 728,
+      "name": "Harrower Infester",
+      "initiative": 2,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 2 },
+        { "kind": "bonus", "bonus": "retaliate", "amount": 2, "range": 3 }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 729,
+      "name": "Harrower Infester",
+      "initiative": 30,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 0, "aoe": [{ "length": 1, "origin": 0 }, { "length": 1, "offset": 1 }, { "length": 1, "offset": 1 }, { "length": 1, "offset": 1 }] },
+        { "kind": "other", "description": "Perform \"Heal {H} 2, Self\" for each target damaged", "consumeElement": "dark" }
+      ]
+    },
+    {
+      "id": 730,
+      "name": "Harrower Infester",
+      "initiative": 38,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "target": 2, "elementEnhancements": { "dark": { "modifier": 2, "conditions": ["disarm"] } } }
+      ]
+    },
+    {
+      "id": 731,
+      "name": "Harrower Infester",
+      "initiative": 7,
+      "abilities": [
+        { "kind": "attack", "modifier": -1, "range": 3, "effects": [{ "kind": "condition", "condition": "muddle" }] },
+        { "kind": "heal", "amount": 4, "target": "self" }
+      ],
+      "shuffle": true
+    }
+  ],
+  "deepTerror": [
+    {
+      "id": 732,
+      "name": "Deep Terror",
+      "initiative": 65,
+      "abilities": [
+        { "kind": "attack", "modifier": 0, "range": 3, "target": 3, "effects": [{ "kind": "condition", "condition": "curse" }] }
+      ]
+    },
+    {
+      "id": 733,
+      "name": "Deep Terror",
+      "initiative": 60,
+      "abilities": [
+        {
+          "kind": "attack",
+          "modifier": 0,
+          "effects": [{ "kind": "effect", "effect": "pierce", "amount": 3 }],
+          "aoe": [
+            { "length": 1, "offset": 2 },
+            { "length": 1, "offset": 2 },
+            { "length": 1, "offset": 1 },
+            { "length": 1, "offset": 1 },
+            { "length": 1 },
+            { "length": 1 }, { "origin": 0 }
+          ]
+        }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 734,
+      "name": "Deep Terror",
+      "initiative": 60,
+      "abilities": [
+        {
+          "kind": "attack",
+          "modifier": 0,
+          "effects": [{ "kind": "effect", "effect": "pierce", "amount": 3 }],
+          "aoe": [
+            { "length": 1, "offset": 2 },
+            { "length": 1, "offset": 2 },
+            { "length": 1, "offset": 1 },
+            { "length": 1, "offset": 1 },
+            { "length": 1 },
+            { "length": 1 }, { "origin": 0 }
+          ]
+        }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 735,
+      "name": "Deep Terror",
+      "initiative": 84,
+      "abilities": [
+        { "kind": "attack", "modifier": -1, "target": "adjacent" },
+        { "kind": "attack", "modifier": 0, "range": 4, "effects": [{ "kind": "condition", "condition": "wound" }] }
+      ]
+    },
+    {
+      "id": 736,
+      "name": "Deep Terror",
+      "initiative": 75,
+      "abilities": [
+        { "kind": "attack", "modifier": 0, "effects": [{ "kind": "condition", "condition": "poison" }] },
+        { "kind": "attack", "modifier": -1, "range": 5, "effects": [{ "kind": "condition", "condition": "immobilize" }] }
+      ]
+    },
+    {
+      "id": 737,
+      "name": "Deep Terror",
+      "initiative": 75,
+      "abilities": [
+        { "kind": "attack", "modifier": -2, "target": "adjacent", "effects": [{ "kind": "condition", "condition": "disarm" }] },
+        { "kind": "attack", "modifier": 0, "range": 3, "target": 2 }
+      ]
+    },
+    {
+      "id": 738,
+      "name": "Deep Terror",
+      "initiative": 96,
+      "abilities": [
+        { "kind": "attack", "modifier": -2, "range": 6, "effects": [{ "kind": "other", "description": "Summon normal Deep Terror in a hex adjacent to the target" }] }
+      ]
+    },
+    {
+      "id": 739,
+      "name": "Deep Terror",
+      "initiative": 54,
+      "abilities": [
+        { "kind": "condition", "conditions": ["wound","poison"], "target": "adjacentEnemies" },
+        { "kind": "attack", "modifier": 0, "range": 4 }
       ]
     }
   ]
