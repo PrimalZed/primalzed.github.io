@@ -304,6 +304,164 @@
       ]
     }
   ],
+  "rendingDrake": [
+    {
+      "id": 548,
+      "name": "Rending Drake",
+      "initiative": 12,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 549,
+      "name": "Rending Drake",
+      "initiative": 13,
+      "abilities": [
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1 }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 550,
+      "name": "Rending Drake",
+      "initiative": 25,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 551,
+      "name": "Rending Drake",
+      "initiative": 39,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 552,
+      "name": "Rending Drake",
+      "initiative": 54,
+      "abilities": [
+        { "kind": "move", "modifier": -2 },
+        { "kind": "attack", "modifier": -1, "range": 3, "target": 2, "effects": [{ "kind": "condition", "condition": "poison" }] }
+      ]
+    },
+    {
+      "id": 553,
+      "name": "Rending Drake",
+      "initiative": 59,
+      "abilities": [
+        { "kind": "move", "modifier": -2 },
+        { "kind": "attack", "modifier": 1, "target": 2 }
+      ]
+    },
+    {
+      "id": 554,
+      "name": "Rending Drake",
+      "initiative": 72,
+      "abilities": [
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "attack", "modifier": -2 }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 555,
+      "name": "Rending Drake",
+      "initiative": 6,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 2 },
+        { "kind": "heal", "amount": 2, "target": "self" },
+        { "kind": "condition", "conditions": ["strengthen"], "target": "self" }
+      ]
+    }
+  ],
+  "spittingDrake": [
+    {
+      "id": 556,
+      "name": "Spitting Drake",
+      "initiative": 32,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ]
+    },
+    {
+      "id": 557,
+      "name": "Spitting Drake",
+      "initiative": 52,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 558,
+      "name": "Spitting Drake",
+      "initiative": 57,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "range": -1, "aoe": [{ "length": 1 }, { "length": 2 }] }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 559,
+      "name": "Spitting Drake",
+      "initiative": 27,
+      "abilities": [
+        { "kind": "attack", "modifier": 0, "target": 2, "effects": [{ "kind": "condition", "condition": "poison" }] }
+      ]
+    },
+    {
+      "id": 560,
+      "name": "Spitting Drake",
+      "initiative": 87,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ]
+    },
+    {
+      "id": 561,
+      "name": "Spitting Drake",
+      "initiative": 89,
+      "abilities": [
+        { "kind": "attack", "modifier": -2, "effects": [{ "kind": "condition", "condition": "stun" }] }
+      ]
+    },
+    {
+      "id": 562,
+      "name": "Spitting Drake",
+      "initiative": 6,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 2 },
+        { "kind": "heal", "amount": 2, "target": "self" },
+        { "kind": "condition", "conditions": ["strengthen"], "target": "self" }
+      ]
+    },
+    {
+      "id": 563,
+      "name": "Spitting Drake",
+      "initiative": 89,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        {
+          "kind": "attack", "modifier": -2, "range": -2,
+          "effects": [{ "kind": "condition", "condition": "poison" }],
+          "aoe": [{ "length": 2 }, { "length": 3 }, { "length": 2 }]
+        }
+      ],
+      "shuffle": true
+    }
+  ],
   "livingCorpse": [
     {
       "id": 564,
@@ -450,7 +608,8 @@
         { "kind": "attack", "modifier": -1, "range": 3, "target": 2 }
       ]
     }
-  ],  "livingSpirit": [
+  ], 
+  "livingSpirit": [
     {
       "id": 580,
       "name": "Living Spirit",
@@ -513,7 +672,7 @@
       "initiative": 55,
       "abilities": [
         { "kind": "move", "modifier": 0 },
-        { "kind": "condition", "conditions": ["curse"], "target": "allEnemies" },
+        { "kind": "condition", "conditions": ["curse"], "target": "allEnemiesWithinRange" },
         { "kind": "infuseElement", "element": "ice" }
       ]
     },
@@ -1312,8 +1471,8 @@
       "name": "Imp",
       "initiative": 24,
       "abilities": [
-        { "kind": "condition", "conditions": ["strengthen"], "target": "allAllies", "range": 2 },
-        { "kind": "condition", "conditions": ["muddle"], "target": "allEnemies", "range": 2 }
+        { "kind": "condition", "conditions": ["strengthen"], "target": "allAlliesWithinRange", "range": 2 },
+        { "kind": "condition", "conditions": ["muddle"], "target": "allEnemiesWithinRange", "range": 2 }
       ]
     }
   ],
@@ -1550,6 +1709,172 @@
       ]
     }
   ],
+  "savvasIcestorm": [
+    {
+      "id": 708,
+      "name": "Savvas Icestorm",
+      "initiative": 70,
+      "abilities": [
+        { "kind": "forcedMovement", "direction": "push", "amount": 2, "target": "adjacent", "elementEnhancements": { "air": { "other": "Push {S}4 instead" } } },
+        { "kind": "attack", "modifier": 1, "range": 1 }
+      ]
+    },
+    {
+      "id": 709,
+      "name": "Savvas Icestorm",
+      "initiative": 98,
+      "abilities": [
+        { "kind": "other", "description": "Summon normal Wind Demon" },
+        { "kind": "infuseElement", "element": "air" }
+      ]
+    },
+    {
+      "id": 710,
+      "name": "Savvas Icestorm",
+      "initiative": 98,
+      "abilities": [
+        { "kind": "other", "description": "Summon normal Frost Demon" },
+        { "kind": "infuseElement", "element": "ice" }
+      ]
+    },
+    {
+      "id": 711,
+      "name": "Savvas Icestorm",
+      "initiative": 19,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "range": -1 },
+        { "kind": "bonus", "bonus": "shield", "amount": 1, "range": 2 },
+        { "kind": "infuseElement", "element": "ice" }
+      ]
+    },
+    {
+      "id": 712,
+      "name": "Savvas Icestorm",
+      "initiative": 14,
+      "abilities": [
+        { "kind": "attack", "modifier": 0, "elementEnhancements": { "ice": { "modifier": 2, "conditions": ["immobilize"] } } },
+        { "kind": "bonus", "bonus": "retaliate", "amount": 2 },
+        { "kind": "infuseElement", "element": "air" }
+      ]
+    },
+    {
+      "id": 713,
+      "name": "Savvas Icestorm",
+      "initiative": 14,
+      "abilities": [
+        { "kind": "bonus", "bonus": "shield", "amount": 4 },
+        { "kind": "heal", "amount": 2, "range": 3, "elementEnhancements": { "ice": { "modifier": 3 } } },
+        { "kind": "attack", "modifier": 0, "consumeElement": "air" }
+      ]
+    },
+    {
+      "id": 714,
+      "name": "Savvas Icestorm",
+      "initiative": 47,
+      "abilities": [
+        { "kind": "condition", "conditions": ["disarm"], "target": "adjacentEnemies" },
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1 },
+        { "kind": "infuseElement", "element": "air" }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 715,
+      "name": "Savvas Icestorm",
+      "initiative": 35,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1, "aoe": [{ "length": 1, "offset": 1 }, { "length": 2 }, { "length": 3, "origin": 0 }] },
+        { "kind": "infuseElement", "element": "ice" }
+      ],
+      "shuffle": true
+    }
+  ],
+  "savvasLavaflow": [
+    {
+      "id": 716,
+      "name": "Savvas Lavaflow",
+      "initiative": 97,
+      "abilities": [
+        { "kind": "other", "description": "Summon normal Flame Demon" },
+        { "kind": "infuseElement", "element": "fire" }
+      ]
+    },
+    {
+      "id": 717,
+      "name": "Savvas Lavaflow",
+      "initiative": 97,
+      "abilities": [
+        { "kind": "other", "description": "Summon normal Earth Demon" },
+        { "kind": "infuseElement", "element": "earth" }
+      ]
+    },
+    {
+      "id": 718,
+      "name": "Savvas Lavaflow",
+      "initiative": 22,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1, "target": "adjacent" },
+        { "kind": "bonus", "bonus": "retaliate", "amount": 3, "consumeElement": "fire" }
+      ]
+    },
+    {
+      "id": 719,
+      "name": "Savvas Lavaflow",
+      "initiative": 68,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1, "range": 3, "other": "All allies and enemies adjacent to the target suffer 2 damage." },
+        { "kind": "infuseElement", "element": "earth" }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 720,
+      "name": "Savvas Lavaflow",
+      "initiative": 41,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        {
+          "kind": "attack", "modifier": -1,
+          "aoe": [{ "length": 1, "origin": 0 }, { "length": 1, "offset": 1 }, { "length": 1, "offset": 1 }, { "lenght": 1, "offset": 2 }],
+          "elementEnhancements": { "earth": { "modifier": 2, "conditions": ["immobilize"] } }
+        }
+      ]
+    },
+    {
+      "id": 721,
+      "name": "Savvas Lavaflow",
+      "initiative": 51,
+      "abilities": [
+        { "kind": "other", "description": "All enemies suffer 2 damage." },
+        { "kind": "condition", "conditions": ["wound"], "target": "allEnemies", "consumeElement": "fire" },
+          { "kind": "condition", "conditions": ["disarm"], "target": "allEnemies", "consumeElement": "earth" }
+      ]
+    },
+    {
+      "id": 722,
+      "name": "Savvas Lavaflow",
+      "initiative": 31,
+      "abilities": [
+        { "kind": "heal", "amount": 4, "range": 3, "elementEnhancements": { "earth": { "target": 3 } } }
+      ]
+    },
+    {
+      "id": 723,
+      "name": "Savvas Lavaflow",
+      "initiative": 68,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": -1, "range": 3, "target": 2 },
+        { "kind": "infuseElement", "element": "fire" }
+      ],
+      "shuffle": true
+    }
+  ],
   "harrowerInfester": [
     {
       "id": 724,
@@ -1721,6 +2046,82 @@
       "abilities": [
         { "kind": "condition", "conditions": ["wound","poison"], "target": "adjacentEnemies" },
         { "kind": "attack", "modifier": 0, "range": 4 }
+      ]
+    }
+  ],
+  "stoneGolem": [
+    {
+      "id": 740,
+      "name": "Stone Golem",
+      "initiative": 11,
+      "abilities": [
+        { "kind": "bonus", "bonus": "retaliate", "amount": 3 }
+      ]
+    },
+    {
+      "id": 741,
+      "name": "Stone Golem",
+      "initiative": 28,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": 0 },
+        { "kind": "other", "description": "Stone Gloem suffers 1 damage."}
+      ]
+    },
+    {
+      "id": 742,
+      "name": "Stone Golem",
+      "initiative": 51,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -1 }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 743,
+      "name": "Stone Golem",
+      "initiative": 65,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": 0 }
+      ]
+    },
+    {
+      "id": 744,
+      "name": "Stone Golem",
+      "initiative": 72,
+      "abilities": [
+        { "kind": "attack", "modifier": 1, "range": 3 },
+        { "kind": "other", "description": "Stone Golem suffers 2 damage." }
+      ]
+    },
+    {
+      "id": 745,
+      "name": "Stone Golem",
+      "initiative": 90,
+      "abilities": [
+        { "kind": "move", "modifier": -1 },
+        { "kind": "attack", "modifier": 1 }
+      ],
+      "shuffle": true
+    },
+    {
+      "id": 746,
+      "name": "Stone Golem",
+      "initiative": 83,
+      "abilities": [
+        { "kind": "move", "modifier": 0 },
+        { "kind": "attack", "modifier": -1, "target": "adjacent" }
+      ]
+    },
+    {
+      "id": 747,
+      "name": "Stone Golem",
+      "initiative": 28,
+      "abilities": [
+        { "kind": "move", "modifier": 1 },
+        { "kind": "attack", "modifier": -2, "range": 3, "effects": [{ "kind": "effect", "effect": "pull", "amount": 2 }, { "kind": "condition", "condition": "immobilize" }] }
       ]
     }
   ]
