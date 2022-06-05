@@ -936,36 +936,133 @@
     },
     "specialLevels": {
       "0": {
-        "1": "Move to next door and reveal room",
-        "2": "Summon Living Bones"
+        "1": [{ "kind": "other", "description": "Move to next door and reveal room" }],
+        "2": [{ "kind": "other", "description": "Summon Living Bones" }]
       },
       "1": {
-        "1": "Move to next door and reveal room",
-        "2": "Summon Living Bones"
+        "1": [{ "kind": "other", "description": "Move to next door and reveal room" }],
+        "2": [{ "kind": "other", "description": "Summon Living Bones" }]
       },
       "2": {
-        "1": "Move to next door and reveal room",
-        "2": "Summon Living Bones"
+        "1": [{ "kind": "other", "description": "Move to next door and reveal room" }],
+        "2": [{ "kind": "other", "description": "Summon Living Bones" }]
       },
       "3": {
-        "1": "Move to next door and reveal room",
-        "2": "Summon Living Bones"
+        "1": [{ "kind": "other", "description": "Move to next door and reveal room" }],
+        "2": [{ "kind": "other", "description": "Summon Living Bones" }]
       },
       "4": {
-        "1": "Move to next door and reveal room",
-        "2": "Summon Living Bones"
+        "1": [{ "kind": "other", "description": "Move to next door and reveal room" }],
+        "2": [{ "kind": "other", "description": "Summon Living Bones" }]
       },
       "5": {
-        "1": "Move to next door and reveal room",
-        "2": "Summon Living Bones"
+        "1": [{ "kind": "other", "description": "Move to next door and reveal room" }],
+        "2": [{ "kind": "other", "description": "Summon Living Bones" }]
       },
       "6": {
-        "1": "Move to next door and reveal room",
-        "2": "Summon Living Bones"
+        "1": [{ "kind": "other", "description": "Move to next door and reveal room" }],
+        "2": [{ "kind": "other", "description": "Summon Living Bones" }]
       },
       "7": {
-        "1": "Move to next door and reveal room",
-        "2": "Summon Living Bones"
+        "1": [{ "kind": "other", "description": "Move to next door and reveal room" }],
+        "2": [{ "kind": "other", "description": "Summon Living Bones" }]
+      }
+    }
+  },
+  {
+    "key": "betrayer",
+    "name": "The Betrayer",
+    "kind": "boss",
+    "levels": {
+      "0": {
+        "hitPoints": 10,
+        "movement": 3,
+        "attack": 4,
+        "range": 3,
+        "immunities": ["curse","disarm","poison","stun","wound"]
+      },
+      "1": {
+        "hitPoints": 12,
+        "movement": 3,
+        "attack": 5,
+        "range": 3,
+        "immunities": ["curse","disarm","poison","stun","wound"]
+      },
+      "2": {
+        "hitPoints": 12,
+        "movement": 3,
+        "attack": 6,
+        "range": 4,
+        "immunities": ["curse","disarm","poison","stun","wound"]
+      },
+      "3": {
+        "hitPoints": 16,
+        "movement": 4,
+        "attack": 7,
+        "range": 4,
+        "immunities": ["curse","disarm","poison","stun","wound"]
+      },
+      "4": {
+        "hitPoints": 18,
+        "movement": 4,
+        "attack": 8,
+        "range": 4,
+        "immunities": ["curse","disarm","poison","stun","wound"]
+      },
+      "5": {
+        "hitPoints": 20,
+        "movement": 5,
+        "attack": 8,
+        "range": 5,
+        "immunities": ["curse","disarm","poison","stun","wound"]
+      },
+      "6": {
+        "hitPoints": 23,
+        "movement": 5,
+        "attack": 9,
+        "range": 5,
+        "immunities": ["curse","disarm","poison","stun","wound"]
+      },
+      "7": {
+        "hitPoints": 27,
+        "movement": 5,
+        "attack": 9,
+        "range": 5,
+        "immunities": ["curse","disarm","poison","stun","wound"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [{ "kind": "other", "description": "Summon Giant Viper and Fear" }],
+        "2": [{ "kind": "other", "description": "Mind Control" }]
+      },
+      "1": {
+        "1": [{ "kind": "other", "description": "Summon Giant Viper and Fear" }],
+        "2": [{ "kind": "other", "description": "Mind Control" }]
+      },
+      "2": {
+        "1": [{ "kind": "other", "description": "Summon Giant Viper and Fear" }],
+        "2": [{ "kind": "other", "description": "Mind Control" }]
+      },
+      "3": {
+        "1": [{ "kind": "other", "description": "Summon Giant Viper and Fear" }],
+        "2": [{ "kind": "other", "description": "Mind Control" }]
+      },
+      "4": {
+        "1": [{ "kind": "other", "description": "Summon Giant Viper and Fear" }],
+        "2": [{ "kind": "other", "description": "Mind Control" }]
+      },
+      "5": {
+        "1": [{ "kind": "other", "description": "Summon Giant Viper and Fear" }],
+        "2": [{ "kind": "other", "description": "Mind Control" }]
+      },
+      "6": {
+        "1": [{ "kind": "other", "description": "Summon Giant Viper and Fear" }],
+        "2": [{ "kind": "other", "description": "Mind Control" }]
+      },
+      "7": {
+        "1": [{ "kind": "other", "description": "Summon Giant Viper and Fear" }],
+        "2": [{ "kind": "other", "description": "Mind Control" }]
       }
     }
   },
@@ -1106,6 +1203,119 @@
     }
   },
   {
+    "key": "captain",
+    "kind": "boss",
+    "name": "Captain of the Guard",
+    "levels": {
+      "0": {
+        "hitPoints": 7,
+        "movement": 2,
+        "attack": 3,
+        "immunities": ["disarm","muddle","stun","wound"]
+      },
+      "1": {
+        "hitPoints": 9,
+        "movement": 2,
+        "attack": 3,
+        "immunities": ["disarm","muddle","stun","wound"]
+      },
+      "2": {
+        "hitPoints": 11,
+        "movement": 2,
+        "attack": 4,
+        "immunities": ["disarm","muddle","stun","wound"]
+      },
+      "3": {
+        "hitPoints": 14,
+        "movement": 3,
+        "attack": 4,
+        "immunities": ["disarm","muddle","stun","wound"]
+      },
+      "4": {
+        "hitPoints": 16,
+        "movement": 3,
+        "attack": 5,
+        "immunities": ["disarm","muddle","stun","wound"]
+      },
+      "5": {
+        "hitPoints": 20,
+        "movement": 3,
+        "attack": 5,
+        "immunities": ["disarm","muddle","stun","wound"]
+      },
+      "6": {
+        "hitPoints": 21,
+        "movement": 4,
+        "attack": 6,
+        "immunities": ["disarm","muddle","stun","wound"]
+      },
+      "7": {
+        "hitPoints": 25,
+        "movement": 4,
+        "attack": 6,
+        "immunities": ["disarm","muddle","stun","wound"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [{ "kind": "heal", "amount": 2, "target": "all" }],
+        "2": [
+          { "kind": "other", "description": "All allies add +1 Attack {A} to all attacks this round"},
+          { "kind": "attack", "modifier": 1 }
+        ]
+      },
+      "1": {
+        "1": [{ "kind": "heal", "amount": 2, "target": "all" }],
+        "2": [
+          { "kind": "other", "description": "All allies add +1 Attack {A} to all attacks this round"},
+          { "kind": "attack", "modifier": 1 }
+        ]
+      },
+      "2": {
+        "1": [{ "kind": "heal", "amount": 2, "target": "all" }],
+        "2": [
+          { "kind": "other", "description": "All allies add +1 Attack {A} to all attacks this round"},
+          { "kind": "attack", "modifier": 1 }
+        ]
+      },
+      "3": {
+        "1": [{ "kind": "heal", "amount": 2, "target": "all" }],
+        "2": [
+          { "kind": "other", "description": "All allies add +1 Attack {A} to all attacks this round"},
+          { "kind": "attack", "modifier": 1 }
+        ]
+      },
+      "4": {
+        "1": [{ "kind": "heal", "amount": 2, "target": "all" }],
+        "2": [
+          { "kind": "other", "description": "All allies add +1 Attack {A} to all attacks this round"},
+          { "kind": "attack", "modifier": 1 }
+        ]
+      },
+      "5": {
+        "1": [{ "kind": "heal", "amount": 2, "target": "all" }],
+        "2": [
+          { "kind": "other", "description": "All allies add +1 Attack {A} to all attacks this round"},
+          { "kind": "attack", "modifier": 1 }
+        ]
+      },
+      "6": {
+        "1": [{ "kind": "heal", "amount": 2, "target": "all" }],
+        "2": [
+          { "kind": "other", "description": "All allies add +1 Attack {A} to all attacks this round"},
+          { "kind": "attack", "modifier": 1 }
+        ]
+      },
+      "7": {
+        "1": [{ "kind": "heal", "amount": 2, "target": "all" }],
+        "2": [
+          { "kind": "other", "description": "All allies add +1 Attack {A} to all attacks this round"},
+          { "kind": "attack", "modifier": 1 }
+        ]
+      }
+    }
+  },
+  {
     "key": "caveBear",
     "name": "Cave Bear",
     "abilityDeckKey": "caveBear",
@@ -1199,6 +1409,151 @@
         "movement": 5,
         "attack": 7,
         "attackEffects": [{ "kind": "condition", "condition": "wound" }]
+      }
+    }
+  },
+  {
+    "key": "colorless",
+    "name": "The Colorless",
+    "kind": "boss",
+    "levels": {
+      "0": {
+        "hitPoints": 9,
+        "movement": 3,
+        "attack": 2,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "1": {
+        "hitPoints": 10,
+        "movement": 3,
+        "attack": 3,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "2": {
+        "hitPoints": 11,
+        "movement": 4,
+        "attack": 3,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "3": {
+        "hitPoints": 12,
+        "movement": 4,
+        "attack": 4,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "4": {
+        "hitPoints": 14,
+        "movement": 4,
+        "attack": 4,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "5": {
+        "hitPoints": 15,
+        "movement": 4,
+        "attack": 5,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "6": {
+        "hitPoints": 17,
+        "movement": 4,
+        "attack": 6,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "7": {
+        "hitPoints": 19,
+        "movement": 5,
+        "attack": 7,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [
+          { "kind": "other", "description": "Summon Night Demon", "consumeElement": "dark" },
+          { "kind": "condition", "conditions": ["invisible"], "target": "self" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Sun Demon", "consumeElement": "light" },
+          { "kind": "heal", "amount": 4, "target": "self" },
+          { "kind": "bonus", "bonus": "shield", "amount": 1 }
+        ]
+      },
+      "1": {
+        "1": [
+          { "kind": "other", "description": "Summon Night Demon", "consumeElement": "dark" },
+          { "kind": "condition", "conditions": ["invisible"], "target": "self" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Sun Demon", "consumeElement": "light" },
+          { "kind": "heal", "amount": 4, "target": "self" },
+          { "kind": "bonus", "bonus": "shield", "amount": 1 }
+        ]
+      },
+      "2": {
+        "1": [
+          { "kind": "other", "description": "Summon Night Demon", "consumeElement": "dark" },
+          { "kind": "condition", "conditions": ["invisible"], "target": "self" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Sun Demon", "consumeElement": "light" },
+          { "kind": "heal", "amount": 5, "target": "self" },
+          { "kind": "bonus", "bonus": "shield", "amount": 1 }
+        ]
+      },
+      "3": {
+        "1": [
+          { "kind": "other", "description": "Summon Night Demon", "consumeElement": "dark" },
+          { "kind": "condition", "conditions": ["invisible"], "target": "self" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Sun Demon", "consumeElement": "light" },
+          { "kind": "heal", "amount": 5, "target": "self" },
+          { "kind": "bonus", "bonus": "shield", "amount": 1 }
+        ]
+      },
+      "4": {
+        "1": [
+          { "kind": "other", "description": "Summon Night Demon", "consumeElement": "dark" },
+          { "kind": "condition", "conditions": ["invisible"], "target": "self" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Sun Demon", "consumeElement": "light" },
+          { "kind": "heal", "amount": 6, "target": "self" },
+          { "kind": "bonus", "bonus": "shield", "amount": 1 }
+        ]
+      },
+      "5": {
+        "1": [
+          { "kind": "other", "description": "Summon Night Demon", "consumeElement": "dark" },
+          { "kind": "condition", "conditions": ["invisible"], "target": "self" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Sun Demon", "consumeElement": "light" },
+          { "kind": "heal", "amount": 6, "target": "self" },
+          { "kind": "bonus", "bonus": "shield", "amount": 1 }
+        ]
+      },
+      "6": {
+        "1": [
+          { "kind": "other", "description": "Summon Night Demon", "consumeElement": "dark" },
+          { "kind": "condition", "conditions": ["invisible"], "target": "self" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Sun Demon", "consumeElement": "light" },
+          { "kind": "heal", "amount": 7, "target": "self" },
+          { "kind": "bonus", "bonus": "shield", "amount": 1 }
+        ]
+      },
+      "7": {
+        "1": [
+          { "kind": "other", "description": "Summon Night Demon", "consumeElement": "dark" },
+          { "kind": "condition", "conditions": ["invisible"], "target": "self" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Sun Demon", "consumeElement": "light" },
+          { "kind": "heal", "amount": 7, "target": "self" },
+          { "kind": "bonus", "bonus": "shield", "amount": 1 }
+        ]
       }
     }
   },
@@ -1297,6 +1652,152 @@
         "movement": 3,
         "attack": 4,
         "attackEffects": [{ "kind": "condition", "condition": "curse" }]
+      }
+    }
+  },
+  {
+    "key": "darkRider",
+    "kind": "boss",
+    "name": "Dark Rider",
+    "notes": "X = Hexes moved",
+    "levels": {
+      "0": {
+        "hitPoints": 9,
+        "movement": 2,
+        "attack": "3+X",
+        "immunities": ["disarm","immobilize","poison","stun"]
+      },
+      "1": {
+        "hitPoints": 10,
+        "movement": 3,
+        "attack": "3+X",
+        "immunities": ["disarm","immobilize","poison","stun"]
+      },
+      "2": {
+        "hitPoints": 12,
+        "movement": 3,
+        "attack": "4+X",
+        "immunities": ["disarm","immobilize","poison","stun"]
+      },
+      "3": {
+        "hitPoints": 13,
+        "movement": 3,
+        "attack": "4+X",
+        "immunities": ["disarm","immobilize","poison","stun"]
+      },
+      "4": {
+        "hitPoints": 14,
+        "movement": 3,
+        "attack": "4+X",
+        "immunities": ["disarm","immobilize","poison","stun"]
+      },
+      "5": {
+        "hitPoints": 16,
+        "movement": 3,
+        "attack": "5+X",
+        "immunities": ["disarm","immobilize","poison","stun"]
+      },
+      "6": {
+        "hitPoints": 16,
+        "movement": 4,
+        "attack": "5+X",
+        "immunities": ["disarm","immobilize","poison","stun"]
+      },
+      "7": {
+        "hitPoints": 18,
+        "movement": 4,
+        "attack": "6+X",
+        "immunities": ["disarm","immobilize","poison","stun"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": 0 }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "other", "description": "Summon Imp"},
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "1": {
+        "1": [
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": 0 }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "other", "description": "Summon Imp"},
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "2": {
+        "1": [
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": 0 }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "other", "description": "Summon Imp"},
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "3": {
+        "1": [
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": 0 }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "other", "description": "Summon Imp"},
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "4": {
+        "1": [
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": 0 }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "other", "description": "Summon Imp"},
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "5": {
+        "1": [
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": 0 }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "other", "description": "Summon Imp"},
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "6": {
+        "1": [
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": 0 }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "other", "description": "Summon Imp"},
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "7": {
+        "1": [
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": 0 }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "other", "description": "Summon Imp"},
+          { "kind": "attack", "modifier": -1 }
+        ]
       }
     }
   },
@@ -2115,6 +2616,143 @@
     }
   },
   {
+    "key": "gloom",
+    "name": "The Gloom",
+    "kind": "boss",
+    "levels": {
+      "0": {
+        "hitPoints": 20,
+        "movement": 2,
+        "attack": 5,
+        "immunities": ["curse","disarm","immobilize","muddle","poison","stun","wound"]
+      },
+      "1": {
+        "hitPoints": 25,
+        "movement": 2,
+        "attack": 5,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "2": {
+        "hitPoints": 29,
+        "movement": 2,
+        "attack": 6,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "3": {
+        "hitPoints": 35,
+        "movement": 2,
+        "attack": 6,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "4": {
+        "hitPoints": 39,
+        "movement": 3,
+        "attack": 7,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "5": {
+        "hitPoints": 46,
+        "movement": 3,
+        "attack": 7,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "6": {
+        "hitPoints": 50,
+        "movement": 3,
+        "attack": 8,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      },
+      "7": {
+        "hitPoints": 56,
+        "movement": 3,
+        "attack": 9,
+        "immunities": ["curse","muddle","poison","stun","wound"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [
+          { "kind": "move", "modifier": 9 },
+          { "kind": "attack", "modifier": 9 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Teleport" },
+          { "kind": "attack", "modifier": 1, "range": 5, "effects": [{ "kind": "condition", "condition": "poison" }, { "kind": "condition", "condition": "wound" }, { "kind": "condition", "condition": "stun" }]}
+        ]
+      },
+      "1": {
+        "1": [
+          { "kind": "move", "modifier": 9 },
+          { "kind": "attack", "modifier": 9 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Teleport" },
+          { "kind": "attack", "modifier": 1, "range": 5, "effects": [{ "kind": "condition", "condition": "poison" }, { "kind": "condition", "condition": "wound" }, { "kind": "condition", "condition": "stun" }]}
+        ]
+      },
+      "2": {
+        "1": [
+          { "kind": "move", "modifier": 9 },
+          { "kind": "attack", "modifier": 9 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Teleport" },
+          { "kind": "attack", "modifier": 1, "range": 5, "effects": [{ "kind": "condition", "condition": "poison" }, { "kind": "condition", "condition": "wound" }, { "kind": "condition", "condition": "stun" }]}
+        ]
+      },
+      "3": {
+        "1": [
+          { "kind": "move", "modifier": 9 },
+          { "kind": "attack", "modifier": 9 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Teleport" },
+          { "kind": "attack", "modifier": 1, "range": 5, "effects": [{ "kind": "condition", "condition": "poison" }, { "kind": "condition", "condition": "wound" }, { "kind": "condition", "condition": "stun" }]}
+        ]
+      },
+      "4": {
+        "1": [
+          { "kind": "move", "modifier": 9 },
+          { "kind": "attack", "modifier": 9 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Teleport" },
+          { "kind": "attack", "modifier": 1, "range": 5, "effects": [{ "kind": "condition", "condition": "poison" }, { "kind": "condition", "condition": "wound" }, { "kind": "condition", "condition": "stun" }]}
+        ]
+      },
+      "5": {
+        "1": [
+          { "kind": "move", "modifier": 9 },
+          { "kind": "attack", "modifier": 9 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Teleport" },
+          { "kind": "attack", "modifier": 1, "range": 5, "effects": [{ "kind": "condition", "condition": "poison" }, { "kind": "condition", "condition": "wound" }, { "kind": "condition", "condition": "stun" }]}
+        ]
+      },
+      "6": {
+        "1": [
+          { "kind": "move", "modifier": 9 },
+          { "kind": "attack", "modifier": 9 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Teleport" },
+          { "kind": "attack", "modifier": 1, "range": 5, "effects": [{ "kind": "condition", "condition": "poison" }, { "kind": "condition", "condition": "wound" }, { "kind": "condition", "condition": "stun" }]}
+        ]
+      },
+      "7": {
+        "1": [
+          { "kind": "move", "modifier": 9 },
+          { "kind": "attack", "modifier": 9 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Teleport" },
+          { "kind": "attack", "modifier": 1, "range": 5, "effects": [{ "kind": "condition", "condition": "poison" }, { "kind": "condition", "condition": "wound" }, { "kind": "condition", "condition": "stun" }]}
+        ]
+      }
+    }
+  },
+  {
     "key": "harrowerInfester",
     "name": "Harrower Infester",
     "abilityDeckKey": "harrowerInfester",
@@ -2375,6 +3013,296 @@
         "bonuses": {
           "retaliate": 4
         }
+      }
+    }
+  },
+  {
+    "key": "inoxBodyguard",
+    "kind": "boss",
+    "name": "Inox Bodyguard",
+    "levels": {
+      "0": {
+        "hitPoints": 6,
+        "movement": 2,
+        "attack": "C",
+        "immunities": ["disarm","muddle","poison","stun"]
+      },
+      "1": {
+        "hitPoints": 7,
+        "movement": 2,
+        "attack": "1+C",
+        "immunities": ["disarm","muddle","poison","stun"]
+      },
+      "2": {
+        "hitPoints": 9,
+        "movement": 2,
+        "attack": "1+C",
+        "immunities": ["disarm","muddle","poison","stun"]
+      },
+      "3": {
+        "hitPoints": 10,
+        "movement": 3,
+        "attack": "2+C",
+        "immunities": ["disarm","muddle","poison","stun"]
+      },
+      "4": {
+        "hitPoints": 11,
+        "movement": 3,
+        "attack": "2+C",
+        "immunities": ["disarm","muddle","poison","stun"]
+      },
+      "5": {
+        "hitPoints": 13,
+        "movement": 3,
+        "attack": "3+C",
+        "immunities": ["disarm","muddle","poison","stun"]
+      },
+      "6": {
+        "hitPoints": 15,
+        "movement": 4,
+        "attack": "3+C",
+        "immunities": ["disarm","muddle","poison","stun"]
+      },
+      "7": {
+        "hitPoints": 17,
+        "movement": 4,
+        "attack": "4+C",
+        "immunities": ["disarm","muddle","poison","stun"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "attack", "modifier": 0 },
+          { "kind": "bonus", "bonus": "retaliate", "amount": 3 }
+        ]
+      },
+      "1": {
+        "1": [
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "attack", "modifier": 0 },
+          { "kind": "bonus", "bonus": "retaliate", "amount": 3 }
+        ]
+      },
+      "2": {
+        "1": [
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "attack", "modifier": 0 },
+          { "kind": "bonus", "bonus": "retaliate", "amount": 3 }
+        ]
+      },
+      "3": {
+        "1": [
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "attack", "modifier": 0 },
+          { "kind": "bonus", "bonus": "retaliate", "amount": 4 }
+        ]
+      },
+      "4": {
+        "1": [
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "attack", "modifier": 0 },
+          { "kind": "bonus", "bonus": "retaliate", "amount": 4 }
+        ]
+      },
+      "5": {
+        "1": [
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "attack", "modifier": 0 },
+          { "kind": "bonus", "bonus": "retaliate", "amount": 5 }
+        ]
+      },
+      "6": {
+        "1": [
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "attack", "modifier": 0 },
+          { "kind": "bonus", "bonus": "retaliate", "amount": 5 }
+        ]
+      },
+      "7": {
+        "1": [
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+        ],
+        "2": [
+          { "kind": "move", "modifier": 0 },
+          { "kind": "attack", "modifier": 0 },
+          { "kind": "bonus", "bonus": "retaliate", "amount": 5 }
+        ]
+      }
+    }
+  },
+  {
+    "key": "jekserah",
+    "kind": "boss",
+    "name": "Jekserah",
+    "levels": {
+      "0": {
+        "hitPoints": 6,
+        "movement": 2,
+        "attack": 2,
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "1": {
+        "hitPoints": 7,
+        "movement": 2,
+        "attack": 3,
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "2": {
+        "hitPoints": 9,
+        "movement": 3,
+        "attack": 3,
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "3": {
+        "hitPoints": 12,
+        "movement": 4,
+        "attack": 4,
+        "immunities": ["disarm","muddle","stun","wound"]
+      },
+      "4": {
+        "hitPoints": 13,
+        "movement": 4,
+        "attack": 5,
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "5": {
+        "hitPoints": 15,
+        "movement": 5,
+        "attack": 5,
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "6": {
+        "hitPoints": 18,
+        "movement": 5,
+        "attack": 5,
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "7": {
+        "hitPoints": 22,
+        "movement": 5,
+        "attack": 5,
+        "immunities": ["curse","disarm","stun","wound"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [
+          { "kind": "other", "description": "Summon Living Bones" },
+          { "kind": "attack", "modifier": -1, "target": "adjacent" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Living Corpse"},
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 2 }
+        ]
+      },
+      "1": {
+        "1": [
+          { "kind": "other", "description": "Summon Living Bones" },
+          { "kind": "attack", "modifier": -1, "target": "adjacent" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Living Corpse"},
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 2 }
+        ]
+      },
+      "2": {
+        "1": [
+          { "kind": "other", "description": "Summon Living Bones" },
+          { "kind": "attack", "modifier": -1, "target": "adjacent" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Living Corpse"},
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 2 }
+        ]
+      },
+      "3": {
+        "1": [
+          { "kind": "other", "description": "Summon Living Bones" },
+          { "kind": "attack", "modifier": -1, "target": "adjacent" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Living Corpse"},
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 2 }
+        ]
+      },
+      "4": {
+        "1": [
+          { "kind": "other", "description": "Summon Living Bones" },
+          { "kind": "attack", "modifier": -1, "target": "adjacent" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Living Corpse"},
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 2 }
+        ]
+      },
+      "5": {
+        "1": [
+          { "kind": "other", "description": "Summon Living Bones" },
+          { "kind": "attack", "modifier": -1, "target": "adjacent" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Living Corpse"},
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 2 }
+        ]
+      },
+      "6": {
+        "1": [
+          { "kind": "other", "description": "Summon Living Bones" },
+          { "kind": "attack", "modifier": -1, "target": "adjacent" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Living Corpse"},
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 2 }
+        ]
+      },
+      "7": {
+        "1": [
+          { "kind": "other", "description": "Summon Living Bones" },
+          { "kind": "attack", "modifier": -1, "target": "adjacent" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Living Corpse"},
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 2 }
+        ]
       }
     }
   },
@@ -2937,6 +3865,96 @@
     }
   },
   {
+    "key": "mercilessOverseer",
+    "name": "Merciless Overseer",
+    "kind": "boss",
+    "notes": "V = Number of Scouts present",
+    "levels": {
+      "0": {
+        "hitPoints": 6,
+        "movement": 2,
+        "attack": "V",
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "1": {
+        "hitPoints": 8,
+        "movement": 2,
+        "attack": "V",
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "2": {
+        "hitPoints": 9,
+        "movement": 3,
+        "attack": "V",
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "3": {
+        "hitPoints": 11,
+        "movement": 3,
+        "attack": "V",
+        "immunities": ["disarm","muddle","stun","wound"]
+      },
+      "4": {
+        "hitPoints": 12,
+        "movement": 4,
+        "attack": "V",
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "5": {
+        "hitPoints": 14,
+        "movement": 4,
+        "attack": "V",
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "6": {
+        "hitPoints": 16,
+        "movement": 4,
+        "attack": "V",
+        "immunities": ["curse","disarm","stun","wound"]
+      },
+      "7": {
+        "hitPoints": 19,
+        "movement": 4,
+        "attack": "V",
+        "immunities": ["curse","disarm","stun","wound"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [{ "kind": "other", "description": "All Scouts act again "}],
+        "2": [{ "kind": "other", "description": "Summon Vermling Scouts" }]
+      },
+      "1": {
+        "1": [{ "kind": "other", "description": "All Scouts act again "}],
+        "2": [{ "kind": "other", "description": "Summon Vermling Scouts" }]
+      },
+      "2": {
+        "1": [{ "kind": "other", "description": "All Scouts act again "}],
+        "2": [{ "kind": "other", "description": "Summon Vermling Scouts" }]
+      },
+      "3": {
+        "1": [{ "kind": "other", "description": "All Scouts act again "}],
+        "2": [{ "kind": "other", "description": "Summon Vermling Scouts" }]
+      },
+      "4": {
+        "1": [{ "kind": "other", "description": "All Scouts act again "}],
+        "2": [{ "kind": "other", "description": "Summon Vermling Scouts" }]
+      },
+      "5": {
+        "1": [{ "kind": "other", "description": "All Scouts act again "}],
+        "2": [{ "kind": "other", "description": "Summon Vermling Scouts" }]
+      },
+      "6": {
+        "1": [{ "kind": "other", "description": "All Scouts act again "}],
+        "2": [{ "kind": "other", "description": "Summon Vermling Scouts" }]
+      },
+      "7": {
+        "1": [{ "kind": "other", "description": "All Scouts act again "}],
+        "2": [{ "kind": "other", "description": "Summon Vermling Scouts" }]
+      }
+    }
+  },
+  {
     "key": "nightDemon",
     "name": "Night Demon",
     "abilityDeckKey": "nightDemon",
@@ -3210,6 +4228,175 @@
         },
         "attackEffects": [
           { "kind": "condition", "condition": "poison" }
+        ]
+      }
+    }
+  },
+  {
+    "key": "primeDemon",
+    "name": "Prime Demon",
+    "kind": "boss",
+    "levels": {
+      "0": {
+        "hitPoints": 8,
+        "movement": 3,
+        "attack": 4,
+        "immunities": ["disarm","immobilize","muddle","poison","stun","wound"]
+      },
+      "1": {
+        "hitPoints": 9,
+        "movement": 4,
+        "attack": 4,
+        "immunities": ["disarm","immobilize","muddle","poison","stun","wound"]
+      },
+      "2": {
+        "hitPoints": 10,
+        "movement": 4,
+        "attack": 5,
+        "immunities": ["disarm","immobilize","muddle","poison","stun","wound"]
+      },
+      "3": {
+        "hitPoints": 12,
+        "movement": 4,
+        "attack": 6,
+        "immunities": ["disarm","immobilize","muddle","poison","stun","wound"]
+      },
+      "4": {
+        "hitPoints": 14,
+        "movement": 5,
+        "attack": 6,
+        "immunities": ["disarm","immobilize","muddle","poison","stun","wound"]
+      },
+      "5": {
+        "hitPoints": 16,
+        "movement": 5,
+        "attack": 7,
+        "immunities": ["disarm","immobilize","muddle","poison","stun","wound"]
+      },
+      "6": {
+        "hitPoints": 20,
+        "movement": 5,
+        "attack": 7,
+        "immunities": ["disarm","immobilize","muddle","poison","stun","wound"]
+      },
+      "7": {
+        "hitPoints": 22,
+        "movement": 5,
+        "attack": 8,
+        "immunities": ["disarm","immobilize","muddle","poison","stun","wound"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "1": {
+        "1": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "2": {
+        "1": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "3": {
+        "1": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "4": {
+        "1": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "5": {
+        "1": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "6": {
+        "1": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ]
+      },
+      "7": {
+        "1": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
+        ],
+        "2": [
+          { "kind": "other", "description": "Throne moves" },
+          { "kind": "other", "description": "Summon Demon" },
+          { "kind": "move", "modifier": 2 },
+          { "kind": "attack", "modifier": -1 }
         ]
       }
     }
@@ -3603,6 +4790,151 @@
         "attackEffects": [
           { "kind": "condition", "condition": "poison" },
           { "kind": "condition", "condition": "wound" }
+        ]
+      }
+    }
+  },
+  {
+    "key": "sightlessEye",
+    "name": "The Sightless Eye",
+    "kind": "boss",
+    "levels": {
+      "0": {
+        "hitPoints": 7,
+        "movement": 0,
+        "attack": 5,
+        "range": 3,
+        "immunities": ["curse","disarm","muddle","stun","push","pull"]
+      },
+      "1": {
+        "hitPoints": 8,
+        "movement": 0,
+        "attack": 6,
+        "range": 3,
+        "immunities": ["curse","disarm","muddle","stun","push","pull"]
+      },
+      "2": {
+        "hitPoints": 10,
+        "movement": 0,
+        "attack": 6,
+        "range": 3,
+        "immunities": ["curse","disarm","muddle","stun","push","pull"]
+      },
+      "3": {
+        "hitPoints": 11,
+        "movement": 0,
+        "attack": 7,
+        "range": 3,
+        "immunities": ["curse","disarm","muddle","stun","push","pull"]
+      },
+      "4": {
+        "hitPoints": 14,
+        "movement": 0,
+        "attack": 7,
+        "range": 3,
+        "immunities": ["curse","disarm","muddle","stun","push","pull"]
+      },
+      "5": {
+        "hitPoints": 15,
+        "movement": 0,
+        "attack": 8,
+        "range": 3,
+        "immunities": ["curse","disarm","muddle","stun","push","pull"]
+      },
+      "6": {
+        "hitPoints": 18,
+        "movement": 0,
+        "attack": 8,
+        "range": 3,
+        "immunities": ["curse","disarm","muddle","stun","push","pull"]
+      },
+      "7": {
+        "hitPoints": 20,
+        "movement": 0,
+        "attack": 9,
+        "range": 3,
+        "immunities": ["curse","disarm","muddle","stun","push","pull"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+        ]
+      },
+      "1": {
+        "1": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+        ]
+      },
+      "2": {
+        "1": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+        ]
+      },
+      "3": {
+        "1": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+        ]
+      },
+      "4": {
+        "1": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+        ]
+      },
+      "5": {
+        "1": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+        ]
+      },
+      "6": {
+        "1": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+        ]
+      },
+      "7": {
+        "1": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon Deep Terror" },
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
         ]
       }
     }
@@ -4065,6 +5397,159 @@
         "range": 4,
 		    "attackEffects": [{ "kind": "condition", "condition": "muddle" }],
         "bonuses": { "shield": 5 }
+      }
+    }
+  },
+  {
+    "key": "wingedHorror",
+    "name": "Winged Horror",
+    "kind": "boss",
+    "levels": {
+      "0": {
+        "hitPoints": 6,
+        "movement": 3,
+        "attack": 3,
+        "immunities": ["curse","disarm","muddle","poison","stun"]
+      },
+      "1": {
+        "hitPoints": 7,
+        "movement": 4,
+        "attack": 3,
+        "immunities": ["curse","disarm","muddle","poison","stun"]
+      },
+      "2": {
+        "hitPoints": 8,
+        "movement": 4,
+        "attack": 4,
+        "immunities": ["curse","disarm","muddle","poison","stun"]
+      },
+      "3": {
+        "hitPoints": 10,
+        "movement": 4,
+        "attack": 4,
+        "immunities": ["curse","disarm","muddle","poison","stun"]
+      },
+      "4": {
+        "hitPoints": 12,
+        "movement": 5,
+        "attack": 4,
+        "immunities": ["curse","disarm","muddle","poison","stun"]
+      },
+      "5": {
+        "hitPoints": 14,
+        "movement": 5,
+        "attack": 5,
+        "immunities": ["curse","disarm","muddle","poison","stun"]
+      },
+      "6": {
+        "hitPoints": 17,
+        "movement": 5,
+        "attack": 5,
+        "immunities": ["curse","disarm","muddle","poison","stun"]
+      },
+      "7": {
+        "hitPoints": 20,
+        "movement": 5,
+        "attack": 5,
+        "immunities": ["curse","disarm","muddle","poison","stun"]
+      }
+    },
+    "specialLevels": {
+      "0": {
+        "1": [
+          { "kind": "attack", "modifier": -1, "target": "adjacent" },
+          { "kind": "attack", "modifier": 0, "range": 3 },
+          { "kind": "other", "description": "Hatch eggs" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon C eggs" },
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 0 }
+        ]
+      },
+      "1": {
+        "1": [
+          { "kind": "attack", "modifier": -1, "target": "adjacent" },
+          { "kind": "attack", "modifier": 0, "range": 3 },
+          { "kind": "other", "description": "Hatch eggs" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon C eggs" },
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 0 }
+        ]
+      },
+      "2": {
+        "1": [
+          { "kind": "attack", "modifier": -1, "target": "adjacent" },
+          { "kind": "attack", "modifier": 0, "range": 3 },
+          { "kind": "other", "description": "Hatch eggs" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon C eggs" },
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 0 }
+        ]
+      },
+      "3": {
+        "1": [
+          { "kind": "attack", "modifier": -1, "target": "adjacent" },
+          { "kind": "attack", "modifier": 0, "range": 3 },
+          { "kind": "other", "description": "Hatch eggs" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon C eggs" },
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 0 }
+        ]
+      },
+      "4": {
+        "1": [
+          { "kind": "attack", "modifier": -1, "target": "adjacent" },
+          { "kind": "attack", "modifier": 0, "range": 3 },
+          { "kind": "other", "description": "Hatch eggs" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon C eggs" },
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 0 }
+        ]
+      },
+      "5": {
+        "1": [
+          { "kind": "attack", "modifier": -1, "target": "adjacent" },
+          { "kind": "attack", "modifier": 0, "range": 3 },
+          { "kind": "other", "description": "Hatch eggs" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon C eggs" },
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 0 }
+        ]
+      },
+      "6": {
+        "1": [
+          { "kind": "attack", "modifier": -1, "target": "adjacent" },
+          { "kind": "attack", "modifier": 0, "range": 3 },
+          { "kind": "other", "description": "Hatch eggs" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon C eggs" },
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 0 }
+        ]
+      },
+      "7": {
+        "1": [
+          { "kind": "attack", "modifier": -1, "target": "adjacent" },
+          { "kind": "attack", "modifier": 0, "range": 3 },
+          { "kind": "other", "description": "Hatch eggs" }
+        ],
+        "2": [
+          { "kind": "other", "description": "Summon C eggs" },
+          { "kind": "move", "modifier": -1 },
+          { "kind": "attack", "modifier": 0 }
+        ]
       }
     }
   }
