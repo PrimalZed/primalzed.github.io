@@ -3074,7 +3074,7 @@
       "0": {
         "1": [
           { "kind": "move", "modifier": -1 },
-          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "actor": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
         ],
         "2": [
           { "kind": "move", "modifier": 0 },
@@ -3085,7 +3085,7 @@
       "1": {
         "1": [
           { "kind": "move", "modifier": -1 },
-          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "actor": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
         ],
         "2": [
           { "kind": "move", "modifier": 0 },
@@ -3096,7 +3096,7 @@
       "2": {
         "1": [
           { "kind": "move", "modifier": -1 },
-          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "actor": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
         ],
         "2": [
           { "kind": "move", "modifier": 0 },
@@ -3107,7 +3107,7 @@
       "3": {
         "1": [
           { "kind": "move", "modifier": -1 },
-          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "actor": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
         ],
         "2": [
           { "kind": "move", "modifier": 0 },
@@ -3118,7 +3118,7 @@
       "4": {
         "1": [
           { "kind": "move", "modifier": -1 },
-          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "actor": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
         ],
         "2": [
           { "kind": "move", "modifier": 0 },
@@ -3129,7 +3129,7 @@
       "5": {
         "1": [
           { "kind": "move", "modifier": -1 },
-          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "actor": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
         ],
         "2": [
           { "kind": "move", "modifier": 0 },
@@ -3140,7 +3140,7 @@
       "6": {
         "1": [
           { "kind": "move", "modifier": -1 },
-          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "actor": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
         ],
         "2": [
           { "kind": "move", "modifier": 0 },
@@ -3151,7 +3151,7 @@
       "7": {
         "1": [
           { "kind": "move", "modifier": -1 },
-          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "origin": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
+          { "kind": "attack", "modifier": -1, "aoe": [{ "length": 3, "actor": 0 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 1 }] }
         ],
         "2": [
           { "kind": "move", "modifier": 0 },
@@ -4860,81 +4860,81 @@
       "0": {
         "1": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "actor": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
         ],
         "2": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "actor": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 2 }]}
         ]
       },
       "1": {
         "1": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "actor": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
         ],
         "2": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "actor": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 2 }]}
         ]
       },
       "2": {
         "1": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "actor": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
         ],
         "2": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "actor": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 2 }]}
         ]
       },
       "3": {
         "1": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "actor": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
         ],
         "2": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "actor": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 2 }]}
         ]
       },
       "4": {
         "1": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "actor": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
         ],
         "2": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "actor": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 2 }]}
         ]
       },
       "5": {
         "1": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "actor": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
         ],
         "2": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "actor": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 2 }]}
         ]
       },
       "6": {
         "1": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "actor": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
         ],
         "2": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "actor": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 2 }]}
         ]
       },
       "7": {
         "1": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "origin": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
+          { "kind": "attack", "modifier": -3, "aoe": [{ "length": 4, "offset": 1, "actor": 0 }, { "length": 4, "offset": 1 }, { "length": 4 }, { "length": 4 }]}
         ],
         "2": [
           { "kind": "other", "description": "Summon Deep Terror" },
-          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "origin": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 2 }, { "length": 1, "offset": 2 }]}
+          { "kind": "attack", "modifier": -2, "aoe": [{ "length": 4, "actor": 0 }, { "length": 3, "offset": 1 }, { "length": 2, "offset": 1 }, { "length": 1, "offset": 2 }]}
         ]
       }
     }
@@ -5181,6 +5181,161 @@
     }
   },
   {
+    "key": "sunDemon",
+    "name": "Sun Demon",
+    "abilityDeckKey": "sunDemon",
+    "kind": "normal",
+    "flying": true,
+    "levels": {
+      "0": {
+        "hitPoints": 5,
+        "movement": 2,
+        "attack": 2,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "1": {
+        "hitPoints": 7,
+        "movement": 2,
+        "attack": 2,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "2": {
+        "hitPoints": 9,
+        "movement": 2,
+        "attack": 2,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "3": {
+        "hitPoints": 10,
+        "movement": 2,
+        "attack": 3,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "4": {
+        "hitPoints": 11,
+        "movement": 3,
+        "attack": 3,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "5": {
+        "hitPoints": 11,
+        "movement": 3,
+        "attack": 3,
+        "bonuses": {
+          "shield": 2
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "6": {
+        "hitPoints": 12,
+        "movement": 3,
+        "attack": 4,
+        "bonuses": {
+          "shield": 2
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "7": {
+        "hitPoints": 15,
+        "movement": 3,
+        "attack": 4,
+        "bonuses": {
+          "shield": 2
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      }
+    },
+    "eliteLevels": {
+      "0": {
+        "hitPoints": 9,
+        "movement": 2,
+        "attack": 3,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "1": {
+        "hitPoints": 12,
+        "movement": 2,
+        "attack": 3,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "2": {
+        "hitPoints": 13,
+        "movement": 2,
+        "attack": 4,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "3": {
+        "hitPoints": 15,
+        "movement": 3,
+        "attack": 4,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "4": {
+        "hitPoints": 16,
+        "movement": 3,
+        "attack": 5,
+        "bonuses": {
+          "shield": 1
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "5": {
+        "hitPoints": 16,
+        "movement": 3,
+        "attack": 5,
+        "bonuses": {
+          "shield": 2
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "6": {
+        "hitPoints": 18,
+        "movement": 4,
+        "attack": 5,
+        "bonuses": {
+          "shield": 2
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      },
+      "7": {
+        "hitPoints": 22,
+        "movement": 4,
+        "attack": 5,
+        "bonuses": {
+          "shield": 2
+        },
+        "attackEffects": [{ "kind": "other", "description": "Advantage" }]
+      }
+    }
+  },
+  {
     "key": "vermlingScout",
     "kind": "normal",
     "name": "Vermling Scout",
@@ -5397,6 +5552,165 @@
         "range": 4,
 		    "attackEffects": [{ "kind": "condition", "condition": "muddle" }],
         "bonuses": { "shield": 5 }
+      }
+    }
+  },
+  {
+    "key": "windDemon",
+    "name": "Wind Demon",
+    "abilityDeckKey": "windDemon",
+    "kind": "normal",
+    "flying": true,
+    "levels": {
+      "0": {
+        "hitPoints": 3,
+        "movement": 3,
+        "attack": 2,
+        "range": 3,
+        "bonuses": {
+          "shield": 1
+        }
+      },
+      "1": {
+        "hitPoints": 3,
+        "movement": 3,
+        "attack": 2,
+        "range": 3,
+        "bonuses": {
+          "shield": 2
+        }
+      },
+      "2": {
+        "hitPoints": 4,
+        "movement": 4,
+        "attack": 2,
+        "range": 3,
+        "bonuses": {
+          "shield": 2
+        }
+      },
+      "3": {
+        "hitPoints": 5,
+        "movement": 4,
+        "attack": 3,
+        "range": 3,
+        "bonuses": {
+          "shield": 2
+        }
+      },
+      "4": {
+        "hitPoints": 7,
+        "movement": 4,
+        "attack": 3,
+        "range": 3,
+        "bonuses": {
+          "shield": 2
+        }
+      },
+      "5": {
+        "hitPoints": 9,
+        "movement": 4,
+        "attack": 3,
+        "range": 4,
+        "bonuses": {
+          "shield": 2
+        }
+      },
+      "6": {
+        "hitPoints": 10,
+        "movement": 4,
+        "attack": 3,
+        "range": 4,
+        "bonuses": {
+          "shield": 3
+        }
+      },
+      "7": {
+        "hitPoints": 11,
+        "movement": 4,
+        "attack": 4,
+        "range": 4,
+        "bonuses": {
+          "shield": 3
+        }
+      }
+    },
+    "eliteLevels": {
+      "0": {
+        "hitPoints": 5,
+        "movement": 4,
+        "attack": 3,
+        "range": 4,
+        "bonuses": {
+          "shield": 1
+        }
+      },
+      "1": {
+        "hitPoints": 5,
+        "movement": 4,
+        "attack": 3,
+        "range": 4,
+        "bonuses": {
+          "shield": 2
+        }
+      },
+      "2": {
+        "hitPoints": 7,
+        "movement": 5,
+        "attack": 3,
+        "range": 4,
+        "bonuses": {
+          "shield": 2
+        }
+      },
+      "3": {
+        "hitPoints": 8,
+        "movement": 5,
+        "attack": 4,
+        "range": 4,
+        "bonuses": {
+          "shield": 2
+        }
+      },
+      "4": {
+        "hitPoints": 8,
+        "movement": 5,
+        "attack": 4,
+        "range": 4,
+        "bonuses": {
+          "shield": 2
+        },
+        "attackEffects": [{ "kind": "condition", "condition": "disarm" }]
+      },
+      "5": {
+        "hitPoints": 11,
+        "movement": 5,
+        "attack": 4,
+        "range": 4,
+        "bonuses": {
+          "shield": 2
+        },
+        "attackEffects": [{ "kind": "condition", "condition": "disarm" }]
+      },
+      "6": {
+        "hitPoints": 12,
+        "movement": 5,
+        "attack": 4,
+        "range": 4,
+        "bonuses": {
+          "shield": 3
+        },
+        "attackEffects": [{ "kind": "condition", "condition": "disarm" }]
+      },
+      "7": {
+        "hitPoints": 13,
+        "movement": 5,
+        "attack": 5,
+        "range": 4,
+        "bonuses": {
+          "shield": 3
+        },
+        "attackEffects": [{ "kind": "condition", "condition": "disarm" }]
       }
     }
   },
