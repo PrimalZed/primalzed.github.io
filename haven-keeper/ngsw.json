@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1658969045091,
+  "timestamp": 1659395327213,
   "index": "/haven-keeper/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/haven-keeper/568.83cbd89eab3ff300.js",
         "/haven-keeper/favicon.ico",
         "/haven-keeper/index.html",
-        "/haven-keeper/main.2923faa37303c939.js",
+        "/haven-keeper/main.2881344846ab945e.js",
         "/haven-keeper/manifest.webmanifest",
         "/haven-keeper/polyfills.d26abab483afb33d.js",
         "/haven-keeper/runtime.76d143bea10b1778.js",
@@ -151,8 +151,8 @@
     "/haven-keeper/gloomhaven-characters.23e673c93b62eed4.otf": "4b4cd7691876e27c191577aace67acaa97ec4abc",
     "/haven-keeper/htowert.324fc43c0afe8bc7.ttf": "0a26624d0fde9147ce63bb804ad1c2e2ddc7a804",
     "/haven-keeper/htowerti.25de7069e71aac0e.ttf": "edae483a09a9c2b919ec27749bfe4ca2d7e8e956",
-    "/haven-keeper/index.html": "be566977d0a2aa9ea735a3a3c35cb92c0975353a",
-    "/haven-keeper/main.2923faa37303c939.js": "a04d3d4d05c23cc99a148fca87e986c3483549dc",
+    "/haven-keeper/index.html": "66fe3da14c4fe23156d5c58a6510f147e3f1ffee",
+    "/haven-keeper/main.2881344846ab945e.js": "940655100cd641f0f2f4cf53c5e9665a7b698c2e",
     "/haven-keeper/majalla.8fdcfeb6b08fa170.ttf": "c1e7e1d996649660491be96d44134c5001853efc",
     "/haven-keeper/manifest.webmanifest": "011b7cc8d557300e95b684d827bcf4e00d5356a7",
     "/haven-keeper/nyala.ba8e78874ebd9558.ttf": "1feec1966d29f939240540cdc1a89dffd5712db4",
